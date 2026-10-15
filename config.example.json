@@ -1,0 +1,16 @@
+{
+  "guild_id": 0,
+  "application_id": 0,
+  "shop_name": "Your ASA Shop",
+  "accent_color": "B3202A",
+  "coin_emoji": "🪙",
+  "logo_url": "",
+  "banner_url": "",
+  "staff_role_keys": ["owner", "admin", "moderator", "seller"],
+  "manager_role_keys": ["owner", "admin"],
+  "ticket_cooldown_seconds": 30,
+  "max_open_tickets_per_user": 3,
+  "ticket_category_capacity": 45,
+  "transcript_limit": 10000,
+  "data_dir": "data"
+}

@@ -1,0 +1,216 @@
+[
+  {
+    "key": "information",
+    "name": "📌 INFORMATION",
+    "channels": [
+      {
+        "key": "welcome",
+        "name": "👋・welcome",
+        "mode": "readonly",
+        "title": "👋 WELCOME TO OUR ASA SHOP",
+        "description": "Welcome! Explore the catalogue, read the rules and open a private ticket when you are ready to order. Our staff will confirm stock, server compatibility and your fixed quote before payment. Never share your Discord or game account password."
+      },
+      {
+        "key": "rules",
+        "name": "📜・rules",
+        "mode": "readonly",
+        "title": "📜 SHOP RULES",
+        "description": "Be respectful. No spam, harassment, scams or unsolicited advertising. Follow Discord rules and applicable game and server rules. Keep trade details in your private ticket and never share passwords.\n\nAll prices are fixed and non-negotiable. “Contact Staff” means a price has not been published; staff must confirm a fixed quote before payment. Product availability, exact quantities and delivery terms must be agreed before purchase. No fabricated reviews, sales totals or reward guarantees are allowed.\n\nTicket messages may be preserved as restricted staff transcripts for order handling and dispute review. Ask staff about retention and deletion requests."
+      },
+      {
+        "key": "announcements",
+        "name": "📢・announcements",
+        "mode": "readonly",
+        "title": "📢 SHOP ANNOUNCEMENTS",
+        "description": "Official shop news and service updates appear here. Only authorized staff publishes announcements. Confirm unexpected offers in a private ticket before paying."
+      },
+      {
+        "key": "how-to-order",
+        "name": "📖・how-to-order",
+        "mode": "readonly",
+        "title": "📖 HOW TO ORDER",
+        "description": "1. Find the product or service you need.\n2. Click its green order button, or choose an option in the central ticket menu.\n3. Include the quantity, map, server type and delivery details.\n4. Wait for staff to confirm stock, the fixed price and the exact offer.\n5. Use only the payment method confirmed by staff in your ticket.\n6. Complete delivery and contact staff if you need help.\n\nAll prices are fixed and non-negotiable."
+      },
+      {
+        "key": "payment-information",
+        "name": "💰・payment-information",
+        "mode": "readonly",
+        "title": "💰 PAYMENT INFORMATION",
+        "description": "Payment methods and billing details must be configured by the shop owner and confirmed in your private ticket. Do not send money to accounts from unsolicited direct messages.\n\nA “Contact Staff” listing is not a finalized price. Agree the exact product, fixed price, currency, stock, delivery terms and any cancellation or refund terms before paying. Never submit full card numbers or passwords to the bot.\n\nAll prices are fixed and non-negotiable."
+      },
+      {
+        "key": "stock-updates",
+        "name": "✅・stock-updates",
+        "mode": "readonly",
+        "title": "✅ STOCK UPDATES",
+        "description": "Staff posts confirmed stock changes here. Catalogue availability is subject to a final check in your order ticket; a listing does not reserve stock."
+      },
+      {
+        "key": "giveaways",
+        "name": "🎁・giveaways",
+        "mode": "readonly",
+        "title": "🎁 GIVEAWAYS",
+        "description": "Any active giveaway will be announced here with its eligibility rules, closing time, prize and selection method. No giveaway is currently promised. Never provide passwords or pay a fee to claim an announced prize."
+      }
+    ]
+  },
+  {
+    "key": "shop-information",
+    "name": "🛒 SHOP INFORMATION",
+    "channels": [
+      {
+        "key": "shop-catalog",
+        "name": "🛍️・shop-catalog",
+        "mode": "readonly",
+        "title": "🛍️ SHOP CATALOGUE",
+        "description": "Explore Boss Fights, Dedi Resources, Dino Lines, Base Sales, Blueprints & Items and Note Runs. Each product panel has a real green button that opens its own private order ticket. Services whose ASA mechanics are unverified are clearly marked and require staff verification before sale.\n\nAll prices are fixed and non-negotiable."
+      },
+      {
+        "key": "prices",
+        "name": "💸・prices",
+        "mode": "readonly",
+        "title": "💸 PRICES",
+        "description": "See each product panel for prices by server type and package. 🪙 indicates the configured currency amount. “Contact Staff” means no amount has been confirmed or published. A staff quote must be agreed before payment.\n\nAll prices are fixed and non-negotiable."
+      },
+      {
+        "key": "available-stock",
+        "name": "📦・available-stock",
+        "mode": "readonly",
+        "title": "📦 AVAILABLE STOCK",
+        "description": "Availability is displayed on product panels and confirmed in your ticket. Dino statistics, base inventories and unverified services must be completed or checked before staff accepts payment."
+      },
+      {
+        "key": "customer-reviews",
+        "name": "⭐・customer-reviews",
+        "mode": "community",
+        "title": "⭐ CUSTOMER REVIEWS",
+        "description": "Share an honest review of a completed order without personal information or payment details. Include the product and your experience. Staff must not fabricate reviews or imply a trading history the shop does not have."
+      },
+      {
+        "key": "completed-orders",
+        "name": "✅・completed-orders",
+        "mode": "readonly",
+        "title": "✅ COMPLETED ORDERS",
+        "description": "Staff may publish completed-order summaries with customer consent. Private ticket details, payment information, server coordinates and transcripts must not be posted here."
+      }
+    ]
+  },
+  {
+    "key": "boss-fights",
+    "name": "🏆 BOSS FIGHTS",
+    "channels": []
+  },
+  {
+    "key": "dedi-resources",
+    "name": "📦 DEDI RESOURCES",
+    "channels": []
+  },
+  {
+    "key": "dino-lines",
+    "name": "🦖 DINO LINES",
+    "channels": []
+  },
+  {
+    "key": "base-sales",
+    "name": "🏠 BASE SALES",
+    "channels": []
+  },
+  {
+    "key": "blueprints-items",
+    "name": "📘 BLUEPRINTS & ITEMS",
+    "channels": []
+  },
+  {
+    "key": "note-runs",
+    "name": "📖 NOTE RUNS",
+    "channels": []
+  },
+  {
+    "key": "tickets-services",
+    "name": "🎟️ TICKETS & SERVICES",
+    "channels": [
+      {
+        "key": "open-a-ticket",
+        "name": "🎫・open-a-ticket",
+        "mode": "readonly",
+        "title": "🎟️ TICKETS",
+        "description": "To order something, please select the best option below.\n\nOur staff will assist you as soon as possible!"
+      }
+    ]
+  },
+  {
+    "key": "community",
+    "name": "💬 COMMUNITY",
+    "channels": [
+      {
+        "key": "general-chat",
+        "name": "💬・general-chat",
+        "mode": "community",
+        "title": "💬 GENERAL CHAT",
+        "description": "Talk about ASA and meet the community. Keep orders in private tickets and follow the server rules."
+      },
+      {
+        "key": "ark-screenshots",
+        "name": "📸・ark-screenshots",
+        "mode": "community",
+        "title": "📸 ARK SCREENSHOTS",
+        "description": "Share your ASA screenshots. Hide private server details or coordinates and post only content you have permission to share."
+      },
+      {
+        "key": "questions",
+        "name": "❓・questions",
+        "mode": "community",
+        "title": "❓ QUESTIONS",
+        "description": "Ask general ASA and shop questions here. Order-specific questions and payment details belong in your private ticket."
+      },
+      {
+        "key": "suggestions",
+        "name": "💡・suggestions",
+        "mode": "community",
+        "title": "💡 SUGGESTIONS",
+        "description": "Suggest useful products, services and improvements. Explain the idea clearly and avoid posting private order details."
+      }
+    ]
+  },
+  {
+    "key": "staff-only",
+    "name": "🔒 STAFF ONLY",
+    "channels": [
+      {
+        "key": "staff-chat",
+        "name": "🔧・staff-chat",
+        "mode": "staff",
+        "title": "🔧 STAFF CHAT",
+        "description": "Private staff coordination. Keep customer information restricted to staff who need it."
+      },
+      {
+        "key": "ticket-logs",
+        "name": "📋・ticket-logs",
+        "mode": "staff",
+        "title": "📋 TICKET LOGS",
+        "description": "Restricted ticket lifecycle logs and transcripts. Transcripts may contain customer messages; never repost them in public channels."
+      },
+      {
+        "key": "order-management",
+        "name": "📦・order-management",
+        "mode": "staff",
+        "title": "📦 ORDER MANAGEMENT",
+        "description": "Coordinate order assignments, stock checks and delivery. Confirm fixed quotes before payment and record completion accurately."
+      },
+      {
+        "key": "moderation-logs",
+        "name": "🛡️・moderation-logs",
+        "mode": "staff",
+        "title": "🛡️ MODERATION LOGS",
+        "description": "Restricted moderation notes and report follow-up. Record facts and avoid unnecessary personal data."
+      },
+      {
+        "key": "bot-commands",
+        "name": "⚙️・bot-commands",
+        "mode": "staff",
+        "title": "⚙️ BOT COMMANDS",
+        "description": "Authorized managers use bot commands here to synchronize panels and publish announcements. Edit local catalogue and price files carefully, validate them, then synchronize."
+      }
+    ]
+  }
+]

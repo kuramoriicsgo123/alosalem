@@ -1,0 +1,2507 @@
+[
+  {
+    "id": "master-controller",
+    "category": "boss-fights",
+    "channel": "🧠・master-controller",
+    "title": "🧠 MASTER CONTROLLER — BOSS FIGHT",
+    "description": "Genesis arena service with phase preparation, survival guidance and a staff-reviewed completion plan.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "boss",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "Genesis: Part 1",
+        "inline": false
+      },
+      {
+        "name": "Available Difficulties",
+        "value": "Gamma / Beta / Alpha in the original Genesis encounter; ASA availability must be verified.",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Verified unlocks and rewards only. Staff must confirm the exact encounter, difficulty, loot allocation and eligibility before payment.",
+        "inline": false
+      },
+      {
+        "name": "Tek Engrams",
+        "value": "Exact unlock list is awaiting current ASA source/build verification. No unverified Tek engrams are included in the offer.",
+        "inline": false
+      },
+      {
+        "name": "Additional Maximum Levels",
+        "value": "Historical reference: Gamma +5, Beta +10, Alpha +15 maximum levels. These are highest-tier totals, not cumulative. Do not promise this until the ASA encounter is verified.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Master Controller",
+    "availability": "ASA release/map availability and encounter verification required",
+    "image_url": "",
+    "verification_status": "current-source-verification-required",
+    "mechanics_verified": false
+  },
+  {
+    "id": "rockwell",
+    "category": "boss-fights",
+    "channel": "🪨・rockwell",
+    "title": "🪨 ROCKWELL — BOSS FIGHT",
+    "description": "Prepare for the Aberration arena with an agreed difficulty, equipment checklist and survivor transfer plan.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "boss",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "Aberration",
+        "inline": false
+      },
+      {
+        "name": "Available Difficulties",
+        "value": "Gamma / Beta / Alpha",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Verified unlocks and rewards only. Staff must confirm the exact encounter, difficulty, loot allocation and eligibility before payment.",
+        "inline": false
+      },
+      {
+        "name": "Tek Engrams",
+        "value": "Exact unlock list is awaiting current ASA source/build verification. No unverified Tek engrams are included in the offer.",
+        "inline": false
+      },
+      {
+        "name": "Additional Maximum Levels",
+        "value": "Reference mechanic to verify on the current ASA build: Gamma +5, Beta +10, Alpha +15 maximum levels through ascension; highest tier replaces lower tiers.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Rockwell",
+    "availability": "Confirm current ASA build, slots and server eligibility",
+    "image_url": "",
+    "verification_status": "current-source-verification-required",
+    "mechanics_verified": false
+  },
+  {
+    "id": "manticore",
+    "category": "boss-fights",
+    "channel": "🦂・manticore",
+    "title": "🦂 MANTICORE — BOSS FIGHT",
+    "description": "Book a Scorched Earth boss run with a clear preparation checklist and a difficulty chosen for your survivor.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "boss",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "Scorched Earth",
+        "inline": false
+      },
+      {
+        "name": "Available Difficulties",
+        "value": "Gamma / Beta / Alpha",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Verified unlocks and rewards only. Staff must confirm the exact encounter, difficulty, loot allocation and eligibility before payment.",
+        "inline": false
+      },
+      {
+        "name": "Tek Engrams",
+        "value": "Exact unlock list is awaiting current ASA source/build verification. No unverified Tek engrams are included in the offer.",
+        "inline": false
+      },
+      {
+        "name": "Additional Maximum Levels",
+        "value": "Scorched Earth ascension reference: Gamma +5, Beta +10, Alpha +15 maximum levels; verify the current ASA build before promising rewards.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Manticore",
+    "availability": "Confirm current ASA build, slots and server eligibility",
+    "image_url": "",
+    "verification_status": "current-source-verification-required",
+    "mechanics_verified": false
+  },
+  {
+    "id": "overseer",
+    "category": "boss-fights",
+    "channel": "👁️・overseer",
+    "title": "👁️ OVERSEER — BOSS FIGHT",
+    "description": "Plan your Tek Cave and Overseer run with staff, including entry requirements, timing and survivor recovery.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "boss",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "The Island — Tek Cave",
+        "inline": false
+      },
+      {
+        "name": "Available Difficulties",
+        "value": "Gamma / Beta / Alpha",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Verified unlocks and rewards only. Staff must confirm the exact encounter, difficulty, loot allocation and eligibility before payment.",
+        "inline": false
+      },
+      {
+        "name": "Tek Engrams",
+        "value": "Exact unlock list is awaiting current ASA source/build verification. No unverified Tek engrams are included in the offer.",
+        "inline": false
+      },
+      {
+        "name": "Additional Maximum Levels",
+        "value": "Island ascension reference: Gamma +5, Beta +10, Alpha +15 maximum levels; highest tier replaces lower tiers. Current build confirmation required.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Overseer",
+    "availability": "Confirm current ASA build, Tek Cave requirements and slots",
+    "image_url": "",
+    "verification_status": "current-source-verification-required",
+    "mechanics_verified": false
+  },
+  {
+    "id": "king-titan",
+    "category": "boss-fights",
+    "channel": "👑・king-titan",
+    "title": "👑 KING TITAN — BOSS FIGHT",
+    "description": "Arrange an Extinction encounter with difficulty-specific preparation, coordinated participation and an agreed reward policy.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "boss",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "Extinction",
+        "inline": false
+      },
+      {
+        "name": "Available Difficulties",
+        "value": "Gamma / Beta / Alpha",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Verified unlocks and rewards only. Staff must confirm the exact encounter, difficulty, loot allocation and eligibility before payment.",
+        "inline": false
+      },
+      {
+        "name": "Tek Engrams",
+        "value": "Exact unlock list is awaiting current ASA source/build verification. No unverified Tek engrams are included in the offer.",
+        "inline": false
+      },
+      {
+        "name": "Additional Maximum Levels",
+        "value": "ASA ascension: Gamma +5, Beta +10, Alpha +15 maximum levels after the corresponding cutscene; highest-tier total, not +30. The ASA mechanic differs from the original ASE encounter. Confirm the current server build before purchase.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy King Titan",
+    "availability": "Confirm current ASA build, encounter requirements and slots",
+    "image_url": "",
+    "verification_status": "ascension-reference-checked; exact-encounter-and-tek-list-pending",
+    "mechanics_verified": false,
+    "source_urls": [
+      "https://ark.wiki.gg/wiki/Ascension"
+    ],
+    "source_checked_on": "2026-10-13"
+  },
+  {
+    "id": "lost-queen",
+    "category": "boss-fights",
+    "channel": "👸・lost-queen",
+    "title": "👸 LOST QUEEN — BOSS FIGHT",
+    "description": "Request information about this named encounter. Staff must first verify the exact ASA map, content pack or mod and its mechanics.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "boss",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "Lost Colony — Lost King and Lost Queen encounter",
+        "inline": false
+      },
+      {
+        "name": "Available Difficulties",
+        "value": "Unverified — staff must identify the encounter before offering difficulty tiers.",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "The Ascension reference describes defeating both the Lost King and Lost Queen in the Red-Handed mission, awarding additional maximum levels and a Gigadesmodus Egg Sac. Exact difficulty, eligibility and other rewards must be confirmed before purchase.",
+        "inline": false
+      },
+      {
+        "name": "Tek Engrams",
+        "value": "Exact unlock list is awaiting current ASA source/build verification. No unverified Tek engrams are included in the offer.",
+        "inline": false
+      },
+      {
+        "name": "Additional Maximum Levels",
+        "value": "Lost Colony ascension adds maximum levels according to mission difficulty. Exact tier values are not verified in this catalogue; no fixed level gain is promised.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Lost Queen",
+    "availability": "Lost Colony service enquiry — confirm the complete mission, difficulty and server eligibility",
+    "image_url": "",
+    "verification_status": "ascension-reference-checked; exact-encounter-and-tek-list-pending",
+    "mechanics_verified": false,
+    "source_urls": [
+      "https://ark.wiki.gg/wiki/Ascension"
+    ],
+    "source_checked_on": "2026-10-13"
+  },
+  {
+    "id": "kraken",
+    "category": "boss-fights",
+    "channel": "🐙・kraken",
+    "title": "🐙 KRAKEN — BOSS FIGHT",
+    "description": "Ask staff to identify the Kraken encounter on your ASA server before a run, difficulty or reward can be offered.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "boss",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "To be verified — exact ASA content or mod required",
+        "inline": false
+      },
+      {
+        "name": "Available Difficulties",
+        "value": "Unverified — do not assume Gamma, Beta or Alpha tiers.",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Verified unlocks and rewards only. Staff must confirm the exact encounter, difficulty, loot allocation and eligibility before payment.",
+        "inline": false
+      },
+      {
+        "name": "Tek Engrams",
+        "value": "Exact unlock list is awaiting current ASA source/build verification. No unverified Tek engrams are included in the offer.",
+        "inline": false
+      },
+      {
+        "name": "Additional Maximum Levels",
+        "value": "Unverified. No extra levels or ascension reward is promised.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Kraken",
+    "availability": "UNVERIFIED — inquiry only; not a confirmed available ASA service",
+    "image_url": "",
+    "verification_status": "current-source-verification-required",
+    "mechanics_verified": false
+  },
+  {
+    "id": "nunatak",
+    "category": "boss-fights",
+    "channel": "❄️・nunatak",
+    "title": "❄️ NUNATAK — BOSS FIGHT",
+    "description": "Send your map and server details so staff can verify this encounter, access conditions and the service that can actually be delivered.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "boss",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "To be verified — exact ASA map/build required",
+        "inline": false
+      },
+      {
+        "name": "Available Difficulties",
+        "value": "Unverified — do not assume Gamma, Beta or Alpha tiers.",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Verified unlocks and rewards only. Staff must confirm the exact encounter, difficulty, loot allocation and eligibility before payment.",
+        "inline": false
+      },
+      {
+        "name": "Tek Engrams",
+        "value": "Exact unlock list is awaiting current ASA source/build verification. No unverified Tek engrams are included in the offer.",
+        "inline": false
+      },
+      {
+        "name": "Additional Maximum Levels",
+        "value": "Unverified. No extra levels or ascension reward is promised.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Nunatak",
+    "availability": "UNVERIFIED — inquiry only; not a confirmed available ASA service",
+    "image_url": "",
+    "verification_status": "current-source-verification-required",
+    "mechanics_verified": false
+  },
+  {
+    "id": "island-bosses",
+    "category": "boss-fights",
+    "channel": "🦖・island-bosses",
+    "title": "🦖 ISLAND BOSSES — BOSS FIGHT",
+    "description": "Choose Broodmother, Megapithecus or Dragon. Staff confirms which encounter, difficulty and reward conditions are included in your booking.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "boss",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "The Island — Broodmother / Megapithecus / Dragon",
+        "inline": false
+      },
+      {
+        "name": "Available Difficulties",
+        "value": "Gamma / Beta / Alpha for each listed Island arena boss",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Verified unlocks and rewards only. Staff must confirm the exact encounter, difficulty, loot allocation and eligibility before payment.",
+        "inline": false
+      },
+      {
+        "name": "Tek Engrams",
+        "value": "Exact unlock list is awaiting current ASA source/build verification. No unverified Tek engrams are included in the offer.",
+        "inline": false
+      },
+      {
+        "name": "Additional Maximum Levels",
+        "value": "No additional maximum levels from these three boss kills alone. Overseer ascension is a separate service. Current build confirmation required.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Island Bosses",
+    "availability": "Confirm current ASA build, selected boss and slots",
+    "image_url": "",
+    "verification_status": "current-source-verification-required",
+    "mechanics_verified": false
+  },
+  {
+    "id": "ragnarok-boss",
+    "category": "boss-fights",
+    "channel": "🐉・ragnarok-boss",
+    "title": "🐉 RAGNAROK BOSS — BOSS FIGHT",
+    "description": "Discuss a Ragnarok arena booking with staff. The encounter composition and rules must be checked against your ASA build.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "boss",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "Ragnarok — exact ASA arena composition to be verified",
+        "inline": false
+      },
+      {
+        "name": "Available Difficulties",
+        "value": "Unverified for the current ASA arena. Original ASE arena had Gamma / Beta / Alpha; do not transfer this assumption to ASA without checking.",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Verified unlocks and rewards only. Staff must confirm the exact encounter, difficulty, loot allocation and eligibility before payment.",
+        "inline": false
+      },
+      {
+        "name": "Tek Engrams",
+        "value": "Exact unlock list is awaiting current ASA source/build verification. No unverified Tek engrams are included in the offer.",
+        "inline": false
+      },
+      {
+        "name": "Additional Maximum Levels",
+        "value": "No additional levels promised until the current ASA encounter is identified and verified.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Ragnarok Boss",
+    "availability": "Current ASA arena verification required before sale",
+    "image_url": "",
+    "verification_status": "current-source-verification-required",
+    "mechanics_verified": false
+  },
+  {
+    "id": "moeder",
+    "category": "boss-fights",
+    "channel": "🌊・moeder",
+    "title": "🌊 MOEDER — BOSS FIGHT",
+    "description": "Plan an underwater encounter with suitable equipment, ocean access and staff-confirmed participation requirements.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "boss",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "Genesis: Part 1 — ocean arena",
+        "inline": false
+      },
+      {
+        "name": "Available Difficulties",
+        "value": "Gamma / Beta / Alpha in the original Genesis encounter; ASA availability must be verified.",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Verified unlocks and rewards only. Staff must confirm the exact encounter, difficulty, loot allocation and eligibility before payment.",
+        "inline": false
+      },
+      {
+        "name": "Tek Engrams",
+        "value": "Exact unlock list is awaiting current ASA source/build verification. No unverified Tek engrams are included in the offer.",
+        "inline": false
+      },
+      {
+        "name": "Additional Maximum Levels",
+        "value": "No additional maximum levels from the original Moeder encounter. No ASA level reward promised without verification.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Moeder",
+    "availability": "ASA release/map availability and encounter verification required",
+    "image_url": "",
+    "verification_status": "current-source-verification-required",
+    "mechanics_verified": false
+  },
+  {
+    "id": "element-dust",
+    "category": "dedi-resources",
+    "channel": "💠・element-dust",
+    "title": "💠 ELEMENT DUST — DEDI SHOP",
+    "description": "Prepare Element Dust supplies for your crafting needs. Staff confirms the transfer route and quantity that your server supports.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Element Dust",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Element Dust",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "adv",
+    "category": "dedi-resources",
+    "channel": "🔸・adv",
+    "title": "🔸 ADVANCED RIFLE BULLETS — DEDI SHOP",
+    "description": "Stock up on Advanced Rifle Bullets for your ammunition supply. ADV means Advanced Rifle Bullets; this listing is ammunition within the Dedi catalogue.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Advanced Rifle Bullets",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Ammunition — Advanced Rifle Bullets (ADV)",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Advanced Rifle Bullets",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "metal-ingots",
+    "category": "dedi-resources",
+    "channel": "🔩・metal-ingots",
+    "title": "🔩 METAL INGOTS — DEDI SHOP",
+    "description": "Supply your next build with refined Metal Ingots, with delivery quantities checked before the order is accepted.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Metal Ingots",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Metal Ingots",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "polymer",
+    "category": "dedi-resources",
+    "channel": "🧪・polymer",
+    "title": "🧪 POLYMER — DEDI SHOP",
+    "description": "Order crafting Polymer in bulk. The exact item type must be agreed in the ticket; Organic Polymer is not silently substituted.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Polymer",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Polymer",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "electronics",
+    "category": "dedi-resources",
+    "channel": "⚡・electronics",
+    "title": "⚡ ELECTRONICS — DEDI SHOP",
+    "description": "Prepare Electronics for advanced crafting and base infrastructure. Share your required quantity and delivery location.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Electronics",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Electronics",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "cementing-paste",
+    "category": "dedi-resources",
+    "channel": "🧱・cementing-paste",
+    "title": "🧱 CEMENTING PASTE — DEDI SHOP",
+    "description": "Order Cementing Paste for structures and crafting projects. Staff checks stock and the total item count for your package.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Cementing Paste",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Cementing Paste",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "crystal",
+    "category": "dedi-resources",
+    "channel": "💎・crystal",
+    "title": "💎 CRYSTAL — DEDI SHOP",
+    "description": "Arrange bulk Crystal supplies for your crafting queue. Tell staff your map and preferred collection or delivery method.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Crystal",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Crystal",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "black-pearls",
+    "category": "dedi-resources",
+    "channel": "⚫・black-pearls",
+    "title": "⚫ BLACK PEARLS — DEDI SHOP",
+    "description": "Request Black Pearls for advanced recipes with availability and total units confirmed before payment.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Black Pearls",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Black Pearls",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "silica-pearls",
+    "category": "dedi-resources",
+    "channel": "🦪・silica-pearls",
+    "title": "🦪 SILICA PEARLS — DEDI SHOP",
+    "description": "Restock Silica Pearls for Electronics and other crafting needs, with packages matched to your server.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Silica Pearls",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Silica Pearls",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "oil",
+    "category": "dedi-resources",
+    "channel": "🛢️・oil",
+    "title": "🛢️ OIL — DEDI SHOP",
+    "description": "Order Oil for fuel and industrial crafting. Staff confirms handling and delivery conditions for your server.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Oil",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Oil",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "gunpowder",
+    "category": "dedi-resources",
+    "channel": "💥・gunpowder",
+    "title": "💥 GUNPOWDER — DEDI SHOP",
+    "description": "Replenish Gunpowder for your ammunition crafting queue. Package contents and availability are confirmed in your ticket.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Gunpowder",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Gunpowder",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "stone",
+    "category": "dedi-resources",
+    "channel": "🪨・stone",
+    "title": "🪨 STONE — DEDI SHOP",
+    "description": "Supply large building projects with bulk Stone. Coordinate delivery logistics and available quantities with the team.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Stone",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Stone",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "wood",
+    "category": "dedi-resources",
+    "channel": "🌲・wood",
+    "title": "🌲 WOOD — DEDI SHOP",
+    "description": "Arrange a bulk Wood order for building and crafting. Share your desired package and delivery requirements.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Wood",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Wood",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "charcoal",
+    "category": "dedi-resources",
+    "channel": "🔥・charcoal",
+    "title": "🔥 CHARCOAL — DEDI SHOP",
+    "description": "Order Charcoal for industrial crafting and Gunpowder production. Staff checks package quantities and current stock.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Charcoal",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Charcoal",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "other-resources",
+    "category": "dedi-resources",
+    "channel": "📦・other-resources",
+    "title": "📦 OTHER RESOURCES — DEDI SHOP",
+    "description": "Looking for a resource that is not listed? Send the exact item name, required amount and server details for an availability check.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dedi",
+    "fields": [
+      {
+        "name": "Product",
+        "value": "Other Resources",
+        "inline": false
+      },
+      {
+        "name": "Product Type",
+        "value": "Resource",
+        "inline": false
+      },
+      {
+        "name": "Quantity",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "inline": false
+      },
+      {
+        "name": "Available Packages",
+        "value": "1 Dedi • 5 Dedis • 10 Dedis • Custom Quantity",
+        "inline": false
+      },
+      {
+        "name": "Server Types",
+        "value": "Official 1x • Small Tribes • PvE",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Other Resources",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "rex-lines",
+    "category": "dino-lines",
+    "channel": "🦖・rex-lines",
+    "title": "🦖 REX — STOCK & LINES",
+    "description": "Powerful Rex breeding stock for your next project. Review the seller-supplied line details and ask staff to confirm the exact animal or pair.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dino",
+    "fields": [
+      {
+        "name": "Species / Variant",
+        "value": "Rex — variant to be added",
+        "inline": false
+      },
+      {
+        "name": "Level",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Health (HP)",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Melee Damage",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Mutations",
+        "value": "To be added — staff must distinguish mutation points from mutation counters",
+        "inline": false
+      },
+      {
+        "name": "Available Colors",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Breeding Pair",
+        "value": "Subject to confirmed breeding eligibility and stock",
+        "inline": false
+      },
+      {
+        "name": "Stat Conditions",
+        "value": "Specify whether stats are base, leveled or imprinted. No stats are promised until a listing has been completed.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Rex",
+    "availability": "Listing details and stock to be added",
+    "image_url": "",
+    "stats": {
+      "level": null,
+      "hp": null,
+      "melee": null,
+      "mutations": null,
+      "colors": []
+    },
+    "screenshots": []
+  },
+  {
+    "id": "giga-lines",
+    "category": "dino-lines",
+    "channel": "🦕・giga-lines",
+    "title": "🦕 GIGANOTOSAURUS — STOCK & LINES",
+    "description": "Explore available Giganotosaurus lines. The listing must identify the exact species and current breeding stock before an order is confirmed.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dino",
+    "fields": [
+      {
+        "name": "Species / Variant",
+        "value": "Giganotosaurus — variant to be added",
+        "inline": false
+      },
+      {
+        "name": "Level",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Health (HP)",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Melee Damage",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Mutations",
+        "value": "To be added — staff must distinguish mutation points from mutation counters",
+        "inline": false
+      },
+      {
+        "name": "Available Colors",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Breeding Pair",
+        "value": "Subject to confirmed breeding eligibility and stock",
+        "inline": false
+      },
+      {
+        "name": "Stat Conditions",
+        "value": "Specify whether stats are base, leveled or imprinted. No stats are promised until a listing has been completed.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Giganotosaurus",
+    "availability": "Listing details and stock to be added",
+    "image_url": "",
+    "stats": {
+      "level": null,
+      "hp": null,
+      "melee": null,
+      "mutations": null,
+      "colors": []
+    },
+    "screenshots": []
+  },
+  {
+    "id": "wyvern-lines",
+    "category": "dino-lines",
+    "channel": "🐉・wyvern-lines",
+    "title": "🐉 WYVERN — STOCK & LINES",
+    "description": "Find Wyvern stock with the variant, age and breeding eligibility confirmed by staff. The exact type is agreed before payment.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dino",
+    "fields": [
+      {
+        "name": "Species / Variant",
+        "value": "Wyvern — variant to be added",
+        "inline": false
+      },
+      {
+        "name": "Level",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Health (HP)",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Melee Damage",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Mutations",
+        "value": "To be added — staff must distinguish mutation points from mutation counters",
+        "inline": false
+      },
+      {
+        "name": "Available Colors",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Breeding Pair",
+        "value": "Subject to confirmed breeding eligibility and stock",
+        "inline": false
+      },
+      {
+        "name": "Stat Conditions",
+        "value": "Specify whether stats are base, leveled or imprinted. No stats are promised until a listing has been completed.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Wyvern",
+    "availability": "Listing details and stock to be added",
+    "image_url": "",
+    "stats": {
+      "level": null,
+      "hp": null,
+      "melee": null,
+      "mutations": null,
+      "colors": []
+    },
+    "screenshots": []
+  },
+  {
+    "id": "reaper-lines",
+    "category": "dino-lines",
+    "channel": "🦂・reaper-lines",
+    "title": "🦂 REAPER — STOCK & LINES",
+    "description": "Request available Reaper stock or a supported Reaper service. Reapers are not standard breedable pairs; staff must explain the exact offering and acquisition method.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dino",
+    "fields": [
+      {
+        "name": "Species / Variant",
+        "value": "Reaper — variant to be added",
+        "inline": false
+      },
+      {
+        "name": "Level",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Health (HP)",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Melee Damage",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Mutations",
+        "value": "To be added — staff must distinguish mutation points from mutation counters",
+        "inline": false
+      },
+      {
+        "name": "Available Colors",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Breeding Pair",
+        "value": "Not a standard breeding-pair product for this species; ask staff about the supported acquisition service.",
+        "inline": false
+      },
+      {
+        "name": "Stat Conditions",
+        "value": "Specify whether stats are base, leveled or imprinted. No stats are promised until a listing has been completed.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Reaper",
+    "availability": "Listing details and stock to be added",
+    "image_url": "",
+    "stats": {
+      "level": null,
+      "hp": null,
+      "melee": null,
+      "mutations": null,
+      "colors": []
+    },
+    "screenshots": []
+  },
+  {
+    "id": "therizino-lines",
+    "category": "dino-lines",
+    "channel": "🦎・therizino-lines",
+    "title": "🦎 THERIZINOSAURUS — STOCK & LINES",
+    "description": "Browse Therizinosaurus breeding stock for your tribe. Staff confirms the animal, breeding details and available color options.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dino",
+    "fields": [
+      {
+        "name": "Species / Variant",
+        "value": "Therizinosaurus — variant to be added",
+        "inline": false
+      },
+      {
+        "name": "Level",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Health (HP)",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Melee Damage",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Mutations",
+        "value": "To be added — staff must distinguish mutation points from mutation counters",
+        "inline": false
+      },
+      {
+        "name": "Available Colors",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Breeding Pair",
+        "value": "Subject to confirmed breeding eligibility and stock",
+        "inline": false
+      },
+      {
+        "name": "Stat Conditions",
+        "value": "Specify whether stats are base, leveled or imprinted. No stats are promised until a listing has been completed.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Therizinosaurus",
+    "availability": "Listing details and stock to be added",
+    "image_url": "",
+    "stats": {
+      "level": null,
+      "hp": null,
+      "melee": null,
+      "mutations": null,
+      "colors": []
+    },
+    "screenshots": []
+  },
+  {
+    "id": "stego-lines",
+    "category": "dino-lines",
+    "channel": "🛡️・stego-lines",
+    "title": "🛡️ STEGOSAURUS — STOCK & LINES",
+    "description": "Choose Stegosaurus stock for your breeding plans. Review confirmed health, mutations and colors before ordering.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dino",
+    "fields": [
+      {
+        "name": "Species / Variant",
+        "value": "Stegosaurus — variant to be added",
+        "inline": false
+      },
+      {
+        "name": "Level",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Health (HP)",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Melee Damage",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Mutations",
+        "value": "To be added — staff must distinguish mutation points from mutation counters",
+        "inline": false
+      },
+      {
+        "name": "Available Colors",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Breeding Pair",
+        "value": "Subject to confirmed breeding eligibility and stock",
+        "inline": false
+      },
+      {
+        "name": "Stat Conditions",
+        "value": "Specify whether stats are base, leveled or imprinted. No stats are promised until a listing has been completed.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Stegosaurus",
+    "availability": "Listing details and stock to be added",
+    "image_url": "",
+    "stats": {
+      "level": null,
+      "hp": null,
+      "melee": null,
+      "mutations": null,
+      "colors": []
+    },
+    "screenshots": []
+  },
+  {
+    "id": "soaker-lines",
+    "category": "dino-lines",
+    "channel": "🐢・soaker-lines",
+    "title": "🐢 SOAKER — STOCK & LINES",
+    "description": "Ask about tanking-oriented creatures. Staff identifies the species and confirms its actual stats; no performance guarantee is implied.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dino",
+    "fields": [
+      {
+        "name": "Species / Variant",
+        "value": "Soaker — variant to be added",
+        "inline": false
+      },
+      {
+        "name": "Level",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Health (HP)",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Melee Damage",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Mutations",
+        "value": "To be added — staff must distinguish mutation points from mutation counters",
+        "inline": false
+      },
+      {
+        "name": "Available Colors",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Breeding Pair",
+        "value": "Subject to confirmed breeding eligibility and stock",
+        "inline": false
+      },
+      {
+        "name": "Stat Conditions",
+        "value": "Specify whether stats are base, leveled or imprinted. No stats are promised until a listing has been completed.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Soaker",
+    "availability": "Listing details and stock to be added",
+    "image_url": "",
+    "stats": {
+      "level": null,
+      "hp": null,
+      "melee": null,
+      "mutations": null,
+      "colors": []
+    },
+    "screenshots": []
+  },
+  {
+    "id": "rhynio-lines",
+    "category": "dino-lines",
+    "channel": "🦅・rhynio-lines",
+    "title": "🦅 RHYNIOGNATHA — STOCK & LINES",
+    "description": "Request Rhyniognatha stock or an acquisition service. Rhyniognatha uses a special reproduction process, not ordinary breeding pairs; confirm the precise offer.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dino",
+    "fields": [
+      {
+        "name": "Species / Variant",
+        "value": "Rhyniognatha — variant to be added",
+        "inline": false
+      },
+      {
+        "name": "Level",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Health (HP)",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Melee Damage",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Mutations",
+        "value": "To be added — staff must distinguish mutation points from mutation counters",
+        "inline": false
+      },
+      {
+        "name": "Available Colors",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Breeding Pair",
+        "value": "Not a standard breeding-pair product for this species; ask staff about the supported acquisition service.",
+        "inline": false
+      },
+      {
+        "name": "Stat Conditions",
+        "value": "Specify whether stats are base, leveled or imprinted. No stats are promised until a listing has been completed.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Rhyniognatha",
+    "availability": "Listing details and stock to be added",
+    "image_url": "",
+    "stats": {
+      "level": null,
+      "hp": null,
+      "melee": null,
+      "mutations": null,
+      "colors": []
+    },
+    "screenshots": []
+  },
+  {
+    "id": "other-dino-lines",
+    "category": "dino-lines",
+    "channel": "🧬・other-dino-lines",
+    "title": "🧬 OTHER DINO — STOCK & LINES",
+    "description": "Request another species by name. Staff confirms availability, breeding eligibility and the exact stock details before quoting.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "dino",
+    "fields": [
+      {
+        "name": "Species / Variant",
+        "value": "Other Dino — variant to be added",
+        "inline": false
+      },
+      {
+        "name": "Level",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Health (HP)",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Melee Damage",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Mutations",
+        "value": "To be added — staff must distinguish mutation points from mutation counters",
+        "inline": false
+      },
+      {
+        "name": "Available Colors",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Breeding Pair",
+        "value": "Subject to confirmed breeding eligibility and stock",
+        "inline": false
+      },
+      {
+        "name": "Stat Conditions",
+        "value": "Specify whether stats are base, leveled or imprinted. No stats are promised until a listing has been completed.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Other Dino",
+    "availability": "Listing details and stock to be added",
+    "image_url": "",
+    "stats": {
+      "level": null,
+      "hp": null,
+      "melee": null,
+      "mutations": null,
+      "colors": []
+    },
+    "screenshots": []
+  },
+  {
+    "id": "bases-for-sale",
+    "category": "base-sales",
+    "channel": "🏡・bases-for-sale",
+    "title": "🏠 ARK BASES FOR SALE",
+    "description": "Browse available ASA base listings. Each offer needs current screenshots, a clear inventory and an agreed transfer process.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "base",
+    "fields": [
+      {
+        "name": "Base Name / Reference",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Map",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Server Type",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Game Mode",
+        "value": "PvP or PvE — to be added",
+        "inline": true
+      },
+      {
+        "name": "Description",
+        "value": "Individual base description to be added",
+        "inline": false
+      },
+      {
+        "name": "Included Structures",
+        "value": "To be added — only the agreed inventory is included",
+        "inline": false
+      },
+      {
+        "name": "Screenshots",
+        "value": "To be added — ask staff for current screenshots",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click Buy Base and provide the listing reference, map, server and any transfer questions.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Base",
+    "availability": "No confirmed listings yet — contact staff",
+    "image_url": "",
+    "screenshots": []
+  },
+  {
+    "id": "pvp-bases",
+    "category": "base-sales",
+    "channel": "🛡️・pvp-bases",
+    "title": "🏠 PVP BASES FOR SALE",
+    "description": "Discuss available PvP base listings and the exact structures, ownership conditions and transfer window.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "base",
+    "fields": [
+      {
+        "name": "Base Name / Reference",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Map",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Server Type",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Game Mode",
+        "value": "PvP",
+        "inline": true
+      },
+      {
+        "name": "Description",
+        "value": "Individual base description to be added",
+        "inline": false
+      },
+      {
+        "name": "Included Structures",
+        "value": "To be added — only the agreed inventory is included",
+        "inline": false
+      },
+      {
+        "name": "Screenshots",
+        "value": "To be added — ask staff for current screenshots",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click Buy Base and provide the listing reference, map, server and any transfer questions.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Base",
+    "availability": "No confirmed listings yet — contact staff",
+    "image_url": "",
+    "screenshots": []
+  },
+  {
+    "id": "pve-bases",
+    "category": "base-sales",
+    "channel": "🏘️・pve-bases",
+    "title": "🏠 PVE BASES FOR SALE",
+    "description": "Find a PvE base suited to your next project. Staff confirms the location, included structures and transfer conditions.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "base",
+    "fields": [
+      {
+        "name": "Base Name / Reference",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Map",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Server Type",
+        "value": "To be added",
+        "inline": true
+      },
+      {
+        "name": "Game Mode",
+        "value": "PvE",
+        "inline": true
+      },
+      {
+        "name": "Description",
+        "value": "Individual base description to be added",
+        "inline": false
+      },
+      {
+        "name": "Included Structures",
+        "value": "To be added — only the agreed inventory is included",
+        "inline": false
+      },
+      {
+        "name": "Screenshots",
+        "value": "To be added — ask staff for current screenshots",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click Buy Base and provide the listing reference, map, server and any transfer questions.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Base",
+    "availability": "No confirmed listings yet — contact staff",
+    "image_url": "",
+    "screenshots": []
+  },
+  {
+    "id": "base-advertisement",
+    "category": "base-sales",
+    "channel": "📢・base-advertisement",
+    "title": "🏠 BASE ADVERTISEMENT SERVICE 🏠",
+    "description": "Give your ASA base listing a clear, dedicated presentation in our shop. We can publish an advertisement with your description, screenshots and contact information after staff review. This is a new shop: audience size, views, enquiries and sales are not guaranteed.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "advertisement",
+    "fields": [
+      {
+        "name": "Available Packages",
+        "value": "One-Time Advertisement • 5 Posts Package • 10 Posts Package",
+        "inline": false
+      },
+      {
+        "name": "What to Provide",
+        "value": "Map, server type, PvP/PvE mode, base description, included structures, screenshots, asking price and a Discord contact.",
+        "inline": false
+      },
+      {
+        "name": "Posting Schedule",
+        "value": "Publication channel, duration and timing are agreed before payment. Repeated posts must comply with server rules.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click Base Advertisement and send your listing details. Staff reviews the content and confirms the package.",
+        "inline": false
+      }
+    ],
+    "button_label": "Base Advertisement",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "weapon-blueprints",
+    "category": "blueprints-items",
+    "channel": "📘・weapon-blueprints",
+    "title": "📘 WEAPON BLUEPRINTS",
+    "description": "Browse weapon blueprint offers with the exact item, quality, damage and crafting cost supplied by the seller.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "item",
+    "fields": [
+      {
+        "name": "Listing Details",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Specifications to Confirm",
+        "value": "Item and quality • Weapon damage • Durability • Crafting costs",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the desired item, quantity, server type and map.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Weapon Blueprints",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "armor-blueprints",
+    "category": "blueprints-items",
+    "channel": "🛡️・armor-blueprints",
+    "title": "🛡️ ARMOR BLUEPRINTS",
+    "description": "Request armor blueprints by set or piece. Staff confirms the actual armor value, durability and required materials.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "item",
+    "fields": [
+      {
+        "name": "Listing Details",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Specifications to Confirm",
+        "value": "Armor piece • Armor value • Durability • Crafting costs",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the desired item, quantity, server type and map.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Armor Blueprints",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "saddle-blueprints",
+    "category": "blueprints-items",
+    "channel": "🦕・saddle-blueprints",
+    "title": "🦕 SADDLE BLUEPRINTS",
+    "description": "Find saddle blueprints for your chosen creature, with the armor rating and crafting cost confirmed before purchase.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "item",
+    "fields": [
+      {
+        "name": "Listing Details",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Specifications to Confirm",
+        "value": "Creature species • Armor rating • Crafting costs",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the desired item, quantity, server type and map.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Saddle Blueprints",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "weapons",
+    "category": "blueprints-items",
+    "channel": "⚔️・weapons",
+    "title": "⚔️ WEAPONS",
+    "description": "Choose crafted weapons with clear item statistics and condition. Ammunition is a separate listing unless explicitly included.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "item",
+    "fields": [
+      {
+        "name": "Listing Details",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Specifications to Confirm",
+        "value": "Weapon type • Damage • Durability • Included attachments",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the desired item, quantity, server type and map.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Weapons",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "structures",
+    "category": "blueprints-items",
+    "channel": "🧱・structures",
+    "title": "🧱 STRUCTURES",
+    "description": "Order individual structures or an agreed building package. Send an itemized list so staff can check quantities and stock.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "item",
+    "fields": [
+      {
+        "name": "Listing Details",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Specifications to Confirm",
+        "value": "Structure names • Quantities • Crafting tier • Delivery conditions",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the desired item, quantity, server type and map.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Structures",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "kits",
+    "category": "blueprints-items",
+    "channel": "🎒・kits",
+    "title": "🎒 KITS",
+    "description": "Request a kit for your next ASA session. The exact contents, quality and quantities must be agreed in your ticket.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "item",
+    "fields": [
+      {
+        "name": "Listing Details",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Specifications to Confirm",
+        "value": "Kit name • Itemized contents • Quality • Quantities",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the desired item, quantity, server type and map.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Kits",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "tek-items",
+    "category": "blueprints-items",
+    "channel": "💠・tek-items",
+    "title": "💠 TEK ITEMS",
+    "description": "Arrange available Tek equipment and structures. Owning an item does not automatically unlock its engram or remove usage requirements.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "item",
+    "fields": [
+      {
+        "name": "Listing Details",
+        "value": "To be added",
+        "inline": false
+      },
+      {
+        "name": "Specifications to Confirm",
+        "value": "Exact Tek item • Quantity • Condition • Engram and usage requirements",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and include the desired item, quantity, server type and map.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Tek Items",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "island-note-run",
+    "category": "note-runs",
+    "channel": "📖・island-note-run",
+    "title": "📖 THE ISLAND — NOTE RUN",
+    "description": "Explore The Island with a staff-arranged note route. The route, required equipment and included discoveries are agreed in advance.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "note",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "The Island",
+        "inline": false
+      },
+      {
+        "name": "Included Route",
+        "value": "To be confirmed — staff supplies the route and available slots",
+        "inline": false
+      },
+      {
+        "name": "Requirements",
+        "value": "Confirm survivor access, map ownership, server rules, equipment and travel arrangements.",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Explorer Note XP benefits depend on the notes and active game rules. No fixed level gain, full completion or permanent level-cap increase is promised by this service.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and provide your server type, map access, availability and the route you need.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy The Island Note Run",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "scorched-note-run",
+    "category": "note-runs",
+    "channel": "📖・scorched-note-run",
+    "title": "📖 SCORCHED EARTH — NOTE RUN",
+    "description": "Explore Scorched Earth with a staff-arranged note route. The route, required equipment and included discoveries are agreed in advance.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "note",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "Scorched Earth",
+        "inline": false
+      },
+      {
+        "name": "Included Route",
+        "value": "To be confirmed — staff supplies the route and available slots",
+        "inline": false
+      },
+      {
+        "name": "Requirements",
+        "value": "Confirm survivor access, map ownership, server rules, equipment and travel arrangements.",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Explorer Note XP benefits depend on the notes and active game rules. No fixed level gain, full completion or permanent level-cap increase is promised by this service.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and provide your server type, map access, availability and the route you need.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Scorched Earth Note Run",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "aberration-note-run",
+    "category": "note-runs",
+    "channel": "📖・aberration-note-run",
+    "title": "📖 ABERRATION — NOTE RUN",
+    "description": "Explore Aberration with a staff-arranged note route. The route, required equipment and included discoveries are agreed in advance.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "note",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "Aberration",
+        "inline": false
+      },
+      {
+        "name": "Included Route",
+        "value": "To be confirmed — staff supplies the route and available slots",
+        "inline": false
+      },
+      {
+        "name": "Requirements",
+        "value": "Confirm survivor access, map ownership, server rules, equipment and travel arrangements.",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Explorer Note XP benefits depend on the notes and active game rules. No fixed level gain, full completion or permanent level-cap increase is promised by this service.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and provide your server type, map access, availability and the route you need.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Aberration Note Run",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "extinction-note-run",
+    "category": "note-runs",
+    "channel": "📖・extinction-note-run",
+    "title": "📖 EXTINCTION — NOTE RUN",
+    "description": "Explore Extinction with a staff-arranged note route. The route, required equipment and included discoveries are agreed in advance.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "note",
+    "fields": [
+      {
+        "name": "Map",
+        "value": "Extinction",
+        "inline": false
+      },
+      {
+        "name": "Included Route",
+        "value": "To be confirmed — staff supplies the route and available slots",
+        "inline": false
+      },
+      {
+        "name": "Requirements",
+        "value": "Confirm survivor access, map ownership, server rules, equipment and travel arrangements.",
+        "inline": false
+      },
+      {
+        "name": "Rewards",
+        "value": "Explorer Note XP benefits depend on the notes and active game rules. No fixed level gain, full completion or permanent level-cap increase is promised by this service.",
+        "inline": false
+      },
+      {
+        "name": "How to Order",
+        "value": "Click below and provide your server type, map access, availability and the route you need.",
+        "inline": false
+      }
+    ],
+    "button_label": "Buy Extinction Note Run",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "middleman-service",
+    "category": "tickets-services",
+    "channel": "🤝・middleman-service",
+    "title": "🤝 MIDDLEMAN SERVICE",
+    "description": "Request independent coordination for an agreed trade. Staff must explain the scope and fees before you proceed. No trade is guaranteed risk-free.\n\nAll prices are fixed and non-negotiable.",
+    "kind": "service",
+    "fields": [
+      {
+        "name": "What to Include",
+        "value": "Transaction type, items or base involved, participants and your preferred time. Do not send passwords or account access.",
+        "inline": false
+      },
+      {
+        "name": "Privacy",
+        "value": "Only you and authorized staff can access this ticket. Relevant order history and transcripts may be retained in restricted staff storage.",
+        "inline": false
+      },
+      {
+        "name": "How to Contact Us",
+        "value": "Click the green button below to open the matching private ticket.",
+        "inline": false
+      }
+    ],
+    "button_label": "Request Middleman",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "report-a-scammer",
+    "category": "tickets-services",
+    "channel": "🛡️・report-a-scammer",
+    "title": "🛡️ REPORT A SCAMMER",
+    "description": "Submit a private report for staff review. Provide verifiable evidence and avoid public accusations or sharing personal information. A report does not establish guilt.",
+    "kind": "service",
+    "fields": [
+      {
+        "name": "What to Include",
+        "value": "Discord user IDs, message links, dates and relevant transaction evidence. Staff will review the report privately.",
+        "inline": false
+      },
+      {
+        "name": "Privacy",
+        "value": "Only you and authorized staff can access this ticket. Relevant order history and transcripts may be retained in restricted staff storage.",
+        "inline": false
+      },
+      {
+        "name": "How to Contact Us",
+        "value": "Click the green button below to open the matching private ticket.",
+        "inline": false
+      },
+      {
+        "name": "Purchase Required",
+        "value": "No purchase required for this request.",
+        "inline": false
+      }
+    ],
+    "button_label": "Report a Scammer",
+    "availability": "Staff will review your request as soon as possible.",
+    "image_url": "",
+    "commercial": false
+  },
+  {
+    "id": "become-a-seller",
+    "category": "tickets-services",
+    "channel": "👤・become-a-seller",
+    "title": "👤 BECOME A SELLER",
+    "description": "Apply to offer products through this shop. Staff reviews product knowledge, listing accuracy and the ability to follow our rules; acceptance is not guaranteed.",
+    "kind": "service",
+    "fields": [
+      {
+        "name": "What to Include",
+        "value": "Your experience, products offered, server types and availability. Never submit passwords or identity documents in the ticket.",
+        "inline": false
+      },
+      {
+        "name": "Privacy",
+        "value": "Only you and authorized staff can access this ticket. Relevant order history and transcripts may be retained in restricted staff storage.",
+        "inline": false
+      },
+      {
+        "name": "How to Contact Us",
+        "value": "Click the green button below to open the matching private ticket.",
+        "inline": false
+      },
+      {
+        "name": "Purchase Required",
+        "value": "No purchase required for this request.",
+        "inline": false
+      }
+    ],
+    "button_label": "Apply as a Seller",
+    "availability": "Staff will review your request as soon as possible.",
+    "image_url": "",
+    "commercial": false
+  },
+  {
+    "id": "staff-inquiries",
+    "category": "tickets-services",
+    "channel": "❓・staff-inquiries",
+    "title": "❓ STAFF INQUIRIES",
+    "description": "Contact the staff team for shop questions, assistance and account-independent support. Share enough detail for the team to understand your request.",
+    "kind": "service",
+    "fields": [
+      {
+        "name": "What to Include",
+        "value": "Your question, relevant order reference and message links if applicable. Never include secrets or passwords.",
+        "inline": false
+      },
+      {
+        "name": "Privacy",
+        "value": "Only you and authorized staff can access this ticket. Relevant order history and transcripts may be retained in restricted staff storage.",
+        "inline": false
+      },
+      {
+        "name": "How to Contact Us",
+        "value": "Click the green button below to open the matching private ticket.",
+        "inline": false
+      },
+      {
+        "name": "Purchase Required",
+        "value": "No purchase required for this request.",
+        "inline": false
+      }
+    ],
+    "button_label": "Contact Staff",
+    "availability": "Staff will review your request as soon as possible.",
+    "image_url": "",
+    "commercial": false
+  },
+  {
+    "id": "general-orders",
+    "category": "shop-information",
+    "channel": null,
+    "title": "🛒 GENERAL ORDERS",
+    "description": "Tell staff what you would like to order. Include the product, quantity, map and server type.",
+    "kind": "service",
+    "fields": [
+      {
+        "name": "How to Order",
+        "value": "Use the corresponding option in the central ticket menu. Staff confirms availability and a fixed quote before payment.",
+        "inline": false
+      }
+    ],
+    "button_label": "Open Ticket",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "dedi-items",
+    "category": "dedi-resources",
+    "channel": null,
+    "title": "🛒 DEDI ITEMS",
+    "description": "Request a Dedi resource order. Include the resource, package, map and server type.",
+    "kind": "service",
+    "fields": [
+      {
+        "name": "How to Order",
+        "value": "Use the corresponding option in the central ticket menu. Staff confirms availability and a fixed quote before payment.",
+        "inline": false
+      }
+    ],
+    "button_label": "Open Ticket",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "dino-lines",
+    "category": "dino-lines",
+    "channel": null,
+    "title": "🛒 DINO LINES",
+    "description": "Request a creature or breeding line. Include the species, quantity, desired stats and server.",
+    "kind": "service",
+    "fields": [
+      {
+        "name": "How to Order",
+        "value": "Use the corresponding option in the central ticket menu. Staff confirms availability and a fixed quote before payment.",
+        "inline": false
+      }
+    ],
+    "button_label": "Open Ticket",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "blueprints",
+    "category": "blueprints-items",
+    "channel": null,
+    "title": "🛒 BLUEPRINTS",
+    "description": "Request a blueprint. Include the item, desired quality, server type and map.",
+    "kind": "service",
+    "fields": [
+      {
+        "name": "How to Order",
+        "value": "Use the corresponding option in the central ticket menu. Staff confirms availability and a fixed quote before payment.",
+        "inline": false
+      }
+    ],
+    "button_label": "Open Ticket",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  },
+  {
+    "id": "sell-base",
+    "category": "base-sales",
+    "channel": null,
+    "title": "🛒 SELL BASE",
+    "description": "Offer a base for staff review. Include your map, server, mode, included structures, screenshots and asking price.",
+    "kind": "service",
+    "fields": [
+      {
+        "name": "How to Order",
+        "value": "Use the corresponding option in the central ticket menu. Staff confirms availability and a fixed quote before payment.",
+        "inline": false
+      }
+    ],
+    "button_label": "Open Ticket",
+    "availability": "Staff confirmation required before payment",
+    "image_url": ""
+  }
+]

@@ -1,0 +1,2 @@
+# Versions complètes validées, y compris les dépendances indirectes.
+-r requirements.lock
