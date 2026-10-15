@@ -35,8 +35,15 @@ ROLE_COLORS = {
 
 REQUIRED_BOT_PERMISSIONS = (
     "manage_roles", "manage_channels", "view_channel", "send_messages",
-    "embed_links", "attach_files", "read_message_history",
+    "embed_links", "attach_files", "read_message_history", "add_reactions",
 )
+
+PERMISSION_LABELS = {
+    "manage_roles": "Gérer les rôles", "manage_channels": "Gérer les salons",
+    "view_channel": "Voir les salons", "send_messages": "Envoyer des messages",
+    "embed_links": "Intégrer des liens", "attach_files": "Joindre des fichiers",
+    "read_message_history": "Voir les anciens messages", "add_reactions": "Ajouter des réactions",
+}
 
 
 class ProvisioningError(RuntimeError):
@@ -57,8 +64,9 @@ def _preflight(guild: discord.Guild) -> discord.Member:
     missing = [name for name in REQUIRED_BOT_PERMISSIONS if not getattr(member.guild_permissions, name)]
     if missing:
         raise ProvisioningError(
-            "Missing bot permissions: " + ", ".join(missing)
-            + ". Update the bot role in Server Settings → Roles and retry. Administrator is unnecessary."
+            "Permissions manquantes pour le bot : " + ", ".join(PERMISSION_LABELS[name] for name in missing)
+            + ". Dans Discord : Paramètres du serveur → Rôles → rôle portant le nom du bot → Permissions. "
+            "Activez ces permissions, enregistrez et relancez. Administrator est inutile."
         )
     return member
 
@@ -90,7 +98,7 @@ def _overwrites(bot: Any, guild: discord.Guild, roles: dict[str, discord.Role], 
         ),
         guild.me: discord.PermissionOverwrite(
             view_channel=True, read_message_history=True, send_messages=True,
-            embed_links=True, attach_files=True, manage_channels=True,
+            embed_links=True, attach_files=True, manage_channels=True, add_reactions=True,
         ),
     }
     authorized = bot.settings.config.get(
@@ -296,38 +304,44 @@ async def sync_guild(bot: Any, guild: discord.Guild) -> dict[str, int]:
     _preflight(guild)
     summary = {"roles_created": 0, "categories_created": 0, "channels_created": 0,
                "panels_created": 0, "panels_updated": 0}
+    stage = "création / mise à jour des rôles"
     try:
         roles = await _roles(bot, guild, summary)
         # Text channel positions are guild-wide, not relative to each category.
         position = 0
         for category_position, spec in enumerate(bot.settings.structure):
+            stage = f"création / mise à jour de la catégorie {spec['name']}"
             category = await _category(bot, guild, spec, category_position, roles, summary)
             for channel_spec in spec.get("channels", []):
+                stage = f"création / mise à jour du salon {channel_spec['name']}"
                 channel = await _channel(bot, guild, category, channel_spec, position, roles, summary)
                 view = bot.tickets.central_view() if channel_spec["key"] == "open-a-ticket" else None
                 embed = build_information_embed(bot.settings, channel_spec)
+                stage = f"publication / mise à jour du panneau dans {channel_spec['name']}"
                 await _panel(bot, channel, channel_spec["key"], "info", embed, view, summary)
                 position += 1
             for product_id, product in bot.settings.products.items():
                 if product.get("category") != spec["key"] or not product.get("channel"):
                     continue
+                stage = f"création / mise à jour du salon {product['channel']}"
                 channel = await _channel(
                     bot, guild, category,
                     {"key": product_id, "name": product["channel"], "mode": "readonly"},
                     position, roles, summary,
                 )
+                stage = f"publication / mise à jour du panneau dans {product['channel']}"
                 await _panel(bot, channel, product_id, "product", build_product_embed(bot.settings, product_id),
                              bot.tickets.product_view(product_id), summary)
                 position += 1
     except discord.Forbidden as exc:
         raise ProvisioningError(
-            "Discord denied a setup operation. Check the bot's Manage Roles / Manage Channels permissions "
-            "and move its role above all shop roles, then run sync again. Existing progress is saved."
+            f"Discord refuse l'étape : {stage} (HTTP {exc.status}, code {exc.code}). "
+            "Vérifiez les permissions du rôle portant le nom du bot et celles de la catégorie concernée, "
+            "puis placez son rôle au-dessus des rôles de boutique. Relancez ensuite : les éléments déjà créés sont conservés."
         ) from exc
     except discord.HTTPException as exc:
         raise ProvisioningError(
-            f"Discord could not complete setup (HTTP {exc.status}, code {exc.code}). "
-            "Retry synchronization after correcting the reported Discord limit or connection problem; "
-            "existing progress is saved."
+            f"Discord ne termine pas l'étape : {stage} (HTTP {exc.status}, code {exc.code}). "
+            "Corrigez la limite Discord ou le problème de connexion indiqué, puis relancez. Les éléments déjà créés sont conservés."
         ) from exc
     return summary

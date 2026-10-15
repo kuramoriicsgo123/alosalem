@@ -6,8 +6,9 @@ Environnement de validation : Linux, Python 3.12.14, discord.py 2.6.4. Les résu
 
 - Installation des dépendances exactes via `requirements.lock`, sans désactiver TLS ; `pip check` ne détecte aucune dépendance cassée.
 - Exécution du script réutilisable `scripts/setup_cloud.sh` : installation relançable, configuration vérifiée et suite de tests terminée.
-- **46 tests automatiques réussis**, aucun test ignoré : stockage SQLite, concurrence, confidentialité, droits du staff, création et fermeture de tickets, export de transcript et récupération après interruption ; génération des panneaux, commandes et contrôle de configuration.
+- **49 tests automatiques réussis**, aucun test ignoré : stockage SQLite, concurrence, confidentialité, droits du staff, création et fermeture de tickets, export de transcript et récupération après interruption ; génération des panneaux, commandes et contrôle de configuration.
 - Synchronisation testée avec une API Discord simulée : la deuxième synchronisation ne crée aucun doublon ; changement de prix appliqué au panneau existant ; récupération des panneaux depuis leurs marqueurs ; traitement des permissions insuffisantes et identifiants incohérents.
+- Correctif des réactions : le bot conserve explicitement **Ajouter des réactions** dans les catégories et salons gérés. L'invitation et le contrôle de démarrage demandent la même liste de permissions. Les refus Discord indiquent désormais l'étape concernée et les codes HTTP/API ; la reprise réelle après `available-stock` reste à vérifier sur le serveur de l'utilisateur.
 - Boutons de vente de type réel `discord.ButtonStyle.success`, vues persistantes avec identifiants stables et cinq menus dans les limites de Discord.
 - Catalogue initial : **11 catégories, 76 salons, 54 panneaux de produits/services et 59 destinations de tickets**, dont cinq accessibles uniquement via les menus. Un seul salon central `open-a-ticket` ; aucun service Character Advertisement.
 - Vérification de tous les embeds : tailles de champs et taille totale compatibles avec les limites Discord. Les données inconnues ne deviennent pas de fausses statistiques ou de faux tarifs.
@@ -18,7 +19,7 @@ Certaines erreurs sont volontairement provoquées dans les tests, par exemple un
 
 ## Vérifications encore nécessaires sur votre serveur
 
-Le token, le serveur cible et l'application Discord ne sont pas fournis. Le bot n'a donc pas été connecté à votre compte et aucun salon n'a été créé à distance. Les scripts Windows n'ont pas été exécutés sur une machine Windows réelle. Suivez [RECETTE_DISCORD_FR.md](RECETTE_DISCORD_FR.md) après invitation du bot : vérification avec deux comptes clients, contrôle staff, achat direct, fermeture, transcript, redémarrage et synchronisation.
+Le token n'a pas été fourni et aucun accès direct au serveur Discord n'a été utilisé pour ces tests. Les captures de l'utilisateur montrent une installation Windows et une création partielle jusqu'à `available-stock` ; elles ne valident pas encore la synchronisation complète ni les tickets. Les scripts Windows n'ont pas été exécutés sur une machine Windows par l'agent. Suivez [RECETTE_DISCORD_FR.md](RECETTE_DISCORD_FR.md) après invitation du bot : vérification avec deux comptes clients, contrôle staff, achat direct, fermeture, transcript, redémarrage et synchronisation.
 
 Les permissions Discord du propriétaire réel et des comptes disposant d'Administrator contournent les restrictions de salons : ne donnez ces privilèges qu'à des responsables de confiance. Le programme n'attribue pas Administrator aux rôles créés.
 

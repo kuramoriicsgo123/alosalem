@@ -168,6 +168,105 @@ class ProvisioningTests(unittest.IsolatedAsyncioTestCase):
         self.store.close()
         self.tmp.cleanup()
 
+    def effective_bot_permissions(self, overwrites):
+        """Resolve channel permissions, rather than using the fake API's shortcut.
+
+        guild_permissions represents the union of the member's guild roles.
+        @everyone channel restrictions apply next; the explicit member override
+        wins last. The bot has no other role-specific channel overwrite here.
+        """
+        permissions = discord.Permissions(
+            self.guild.default_role.permissions.value
+            | self.guild.me.guild_permissions.value
+        )
+        for target in (self.guild.default_role, self.guild.me):
+            overwrite = overwrites.get(target)
+            if overwrite is not None:
+                allow, deny = overwrite.pair()
+                permissions.handle_overwrite(allow.value, deny.value)
+        return permissions
+
+    async def test_bot_retains_required_permissions_inside_every_category(self):
+        await sync_guild(self.bot, self.guild)
+        for category in self.guild.categories:
+            with self.subTest(category=category.name):
+                effective = self.effective_bot_permissions(category.overwrites)
+                for permission in REQUIRED_BOT_PERMISSIONS:
+                    self.assertTrue(getattr(effective, permission), permission)
+                self.assertFalse(effective.administrator)
+
+    async def test_readonly_parent_retains_reactions_for_public_reviews(self):
+        await sync_guild(self.bot, self.guild)
+        reviews = self.guild.get_channel(
+            self.store.get_resource("channel", "customer-reviews")
+        )
+        category = self.guild.get_channel(reviews.category_id)
+        self.assertFalse(category.overwrites[self.guild.default_role].add_reactions)
+        self.assertTrue(reviews.overwrites[self.guild.default_role].add_reactions)
+
+        # A guild-level grant alone does not survive @everyone's parent deny.
+        # This was the original local permissions defect. Do not pretend the
+        # in-memory API reproduces Discord's server-side grant validation.
+        legacy = dict(category.overwrites)
+        legacy[self.guild.me] = discord.PermissionOverwrite.from_pair(
+            *legacy[self.guild.me].pair()
+        )
+        legacy[self.guild.me].add_reactions = None
+        self.assertTrue(self.guild.me.guild_permissions.add_reactions)
+        self.assertFalse(self.effective_bot_permissions(legacy).add_reactions)
+        self.assertTrue(
+            self.effective_bot_permissions(category.overwrites).add_reactions
+        )
+
+        # Resynchronizing a category saved by the earlier version repairs it
+        # in place, preserving the already installed channels and panels.
+        category.overwrites = legacy
+        review_id, panel_id = reviews.id, reviews.messages[0].id
+        report = await sync_guild(self.new_bot(), self.guild)
+        self.assertEqual(report["categories_created"], 0)
+        self.assertEqual(report["channels_created"], 0)
+        self.assertEqual(report["panels_created"], 0)
+        self.assertEqual(self.store.get_resource("channel", "customer-reviews"), review_id)
+        self.assertEqual(reviews.messages[0].id, panel_id)
+        self.assertTrue(
+            self.effective_bot_permissions(category.overwrites).add_reactions
+        )
+
+    async def test_forbidden_names_failed_channel_and_preserves_progress(self):
+        reviews = next(
+            channel for category in self.settings.structure
+            for channel in category.get("channels", [])
+            if channel["key"] == "customer-reviews"
+        )
+        create_channel = self.guild.create_text_channel.side_effect
+
+        async def denied_reviews(name, **kwargs):
+            if name == reviews["name"]:
+                raise discord.Forbidden(
+                    SimpleNamespace(status=403, reason="Forbidden"),
+                    {"code": 50013, "message": "Missing Permissions"},
+                )
+            return await create_channel(name, **kwargs)
+
+        self.guild.create_text_channel.side_effect = denied_reviews
+        with self.assertRaises(ProvisioningError) as caught:
+            await sync_guild(self.bot, self.guild)
+        self.assertIn(reviews["name"], str(caught.exception))
+        self.assertIn("HTTP 403", str(caught.exception))
+        self.assertIn("code 50013", str(caught.exception))
+        self.assertIn("Discord refuse l'étape", str(caught.exception))
+        self.assertIsNone(self.store.get_resource("channel", "customer-reviews"))
+        stock_channel = self.store.get_resource("channel", "available-stock")
+        stock_panel = self.store.get_resource("panel", "available-stock")
+        self.assertIsNotNone(stock_channel)
+        self.assertIsNotNone(stock_panel)
+
+        self.guild.create_text_channel.side_effect = create_channel
+        await sync_guild(self.new_bot(), self.guild)
+        self.assertEqual(self.store.get_resource("channel", "available-stock"), stock_channel)
+        self.assertEqual(self.store.get_resource("panel", "available-stock"), stock_panel)
+        self.assertIsNotNone(self.store.get_resource("panel", "customer-reviews"))
+
     async def test_second_sync_after_restart_creates_no_duplicates(self):
         self.settings.config["logo_url"] = "https://example.org/shop-logo.png"
         first = await sync_guild(self.bot, self.guild)

@@ -71,8 +71,9 @@ Dans le Developer Portal, ouvrez **OAuth2 → URL Generator**. Sélectionnez les
 | Embed Links | Afficher les présentations de produits |
 | Attach Files | Joindre les transcripts |
 | Read Message History | Retrouver les panneaux et exporter les tickets |
+| Add Reactions | Configurer les réactions dans les salons communautaires |
 
-**Ne cochez pas Administrator.** Pour ces permissions, la valeur numérique est `268553232`.
+**Ne cochez pas Administrator.** Pour ces permissions, la valeur numérique est `268553296`.
 
 Vous pouvez aussi ouvrir un terminal dans le dossier et obtenir le lien calculé depuis `application_id` :
 
@@ -194,6 +195,18 @@ cp -n .env.example .env
 Ces commandes servent aussi à préparer un environnement cloud. Utilisez le checkout fourni dans la tâche : chaque tâche cloud est déjà isolée et ne nécessite pas de worktree Git supplémentaire.
 
 ## 12. Dépannage
+
+### Mise à jour du correctif de permissions
+
+Si la création s'arrête après `available-stock`, une ancienne version ne conservait pas la permission **Ajouter des réactions** du bot dans les catégories de boutique. Le correctif la conserve et affiche désormais le salon ou l'étape précise en cas de refus Discord.
+
+1. Arrêtez le bot avec **Ctrl+C**, puis fermez sa fenêtre.
+2. Dans Discord : **Paramètres du serveur → Rôles → rôle portant le nom du bot → Permissions**, activez **Ajouter des réactions** et enregistrez. Il s'agit du rôle propre à l'application, pas du rôle décoratif `🤖 Bots`. Conservez les autres permissions requises ci-dessus.
+3. [Téléchargez la version à jour](https://github.com/kuramoriicsgo123/alosalem/archive/refs/heads/main.zip), puis extrayez-la dans un autre dossier.
+4. Copiez **`main.py` et le dossier `shop`** de la nouvelle version dans votre ancien dossier du bot. Acceptez le remplacement des fichiers correspondants. Gardez vos fichiers `.env`, `config.json`, vos JSON personnalisés et votre dossier `data` dans l'ancien dossier.
+5. Depuis cet ancien dossier, relancez **`DEMARRER_WINDOWS.bat`**. Aucune réinstallation des dépendances n'est nécessaire pour ce correctif. Les éléments déjà créés sont retrouvés et mis à jour.
+
+Si Discord refuse encore une opération, relevez le nouveau message : il indique l'étape et le code d'erreur. Le message **PyNaCl is not installed, voice will NOT be supported** ne bloque pas cette boutique, qui n'utilise pas la voix.
 
 | Symptôme | Action |
 | --- | --- |

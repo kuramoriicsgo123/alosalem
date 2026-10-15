@@ -21,16 +21,14 @@ from shop.settings import ConfigurationError, Settings, load_settings
 from shop.storage import Store
 from shop.tickets import TicketService
 from shop.presentation import build_product_embed
-from shop.provisioning import sync_guild
+from shop.provisioning import REQUIRED_BOT_PERMISSIONS, sync_guild
 
 ROOT = Path(__file__).resolve().parent
 LOG = logging.getLogger("asa_shop")
 
 
 def invite_permissions() -> discord.Permissions:
-    return discord.Permissions(view_channel=True, send_messages=True, embed_links=True,
-                               attach_files=True, read_message_history=True,
-                               manage_channels=True, manage_roles=True)
+    return discord.Permissions(**dict.fromkeys(REQUIRED_BOT_PERMISSIONS, True))
 
 
 def validate_rendering(settings: Settings) -> None:

@@ -224,7 +224,7 @@ class TicketService:
                 send_messages_in_threads=False, mention_everyone=False),
             guild.me: discord.PermissionOverwrite(view_channel=True, send_messages=True,
                 read_message_history=True, manage_channels=True,
-                attach_files=True, embed_links=True),
+                attach_files=True, embed_links=True, add_reactions=True),
             owner: discord.PermissionOverwrite(view_channel=not closed, send_messages=not (closed or frozen),
                 read_message_history=not closed, attach_files=not closed, embed_links=not closed,
                 create_public_threads=False, create_private_threads=False,

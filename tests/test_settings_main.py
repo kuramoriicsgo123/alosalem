@@ -117,6 +117,7 @@ class ConfigurationTests(unittest.TestCase):
         self.assertTrue(permissions.manage_channels)
         self.assertTrue(permissions.manage_roles)
         self.assertTrue(permissions.read_message_history)
+        self.assertTrue(permissions.add_reactions)
 
     def test_process_lock_prevents_second_instance_and_releases(self):
         path = self.root / "bot.lock"
