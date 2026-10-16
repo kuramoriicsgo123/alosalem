@@ -16,6 +16,7 @@ from discord import app_commands
 from discord.ext import commands
 from dotenv import load_dotenv
 
+from shop import __version__
 from shop.locking import InstanceLock
 from shop.settings import ConfigurationError, Settings, load_settings
 from shop.storage import Store
@@ -242,6 +243,7 @@ def main(argv=None) -> int:
         settings = load_settings(ROOT, require_config=not args.check)
         validate_rendering(settings)
         if args.check:
+            print(f"Version du bot : {__version__}")
             print(f"Configuration valide : {len(settings.structure)} catégories, {len(settings.products)} produits/services. Panneaux dans les limites Discord.")
             if settings.config["guild_id"] == 0:
                 print("Modèle validé hors ligne. Renseignez config.json et .env avant la connexion Discord.")
@@ -254,6 +256,7 @@ def main(argv=None) -> int:
         if args.backup:
             print(f"Sauvegarde vérifiée : {backup_database(settings)}")
             return 0
+        print(f"Version du bot : {__version__}")
         load_dotenv(ROOT / ".env", override=False)
         token = os.environ.get("DISCORD_TOKEN", "").strip()
         if not token or token in {"YOUR_BOT_TOKEN_HERE", "PASTE_YOUR_BOT_TOKEN_HERE", "COLLEZ_VOTRE_TOKEN_ICI"}:

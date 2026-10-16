@@ -9,6 +9,7 @@ import unittest
 from unittest.mock import AsyncMock, Mock
 
 import discord
+from yarl import URL
 
 from shop.presentation import FIXED_PRICE_RULE, build_product_embed, panel_marker
 from shop.provisioning import (ProvisioningError, REQUIRED_BOT_PERMISSIONS,
@@ -53,6 +54,7 @@ class Guild:
         self.me = Mock()
         self.me.id = 10
         self.me.top_role = Role(10, "Application role", 100)
+        self.me.roles = [self.default_role, self.me.top_role]
         self.me.guild_permissions = discord.Permissions(**dict.fromkeys(REQUIRED_BOT_PERMISSIONS, True))
         self.create_role = AsyncMock(side_effect=self._create_role)
         self.create_category = AsyncMock(side_effect=self._create_category)
@@ -69,6 +71,18 @@ class Guild:
     def get_role(self, identifier):
         return next((r for r in self.roles if r.id == identifier), None)
 
+    def bot_permissions_for(self, overwrites):
+        """Resolve the fake bot's real channel overrides; no API validation claim."""
+        permissions = discord.Permissions(self.me.guild_permissions.value)
+        if permissions.administrator:
+            return discord.Permissions.all()
+        for target in (self.default_role, self.me):
+            overwrite = overwrites.get(target)
+            if overwrite is not None:
+                allow, deny = overwrite.pair()
+                permissions.handle_overwrite(allow.value, deny.value)
+        return permissions
+
     async def _create_role(self, **kwargs):
         role = Role(self.next_id(), kwargs.pop("name"), **kwargs)
         self.roles.append(role)
@@ -78,6 +92,8 @@ class Guild:
         category = Mock(spec=discord.CategoryChannel)
         category.id, category.name = self.next_id(), name
         category.position, category.overwrites = kwargs["position"], kwargs["overwrites"]
+        category.permissions_for = Mock(
+            side_effect=lambda member: self.bot_permissions_for(category.overwrites))
 
         async def edit(**changes):
             for key, value in changes.items():
@@ -95,7 +111,8 @@ class Guild:
         channel.category_id = kwargs["category"].id
         channel.position, channel.topic = kwargs["position"], kwargs["topic"]
         channel.overwrites, channel.messages = kwargs["overwrites"], []
-        channel.permissions_for = Mock(return_value=self.me.guild_permissions)
+        channel.permissions_for = Mock(
+            side_effect=lambda member: self.bot_permissions_for(channel.overwrites))
 
         async def edit(**changes):
             for key, value in changes.items():
@@ -307,6 +324,102 @@ class ProvisioningTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(self.store.get_resource("channel", "available-stock"), stock_channel)
         self.assertEqual(self.store.get_resource("panel", "available-stock"), stock_panel)
         self.assertIsNotNone(self.store.get_resource("panel", "customer-reviews"))
+
+    async def test_restart_repairs_all_four_legacy_parent_denies_without_duplicates(self):
+        await sync_guild(self.bot, self.guild)
+        category = self.guild.get_channel(self.store.get_resource("category", "shop-information"))
+        omitted = ("mention_everyone", "create_public_threads", "create_private_threads",
+                   "send_messages_in_threads")
+        for permission in omitted:
+            setattr(category.overwrites[self.guild.me], permission, None)
+            self.assertTrue(getattr(self.guild.me.guild_permissions, permission))
+            self.assertFalse(getattr(category.permissions_for(self.guild.me), permission))
+        channel_ids = [channel.id for channel in self.guild.text_channels]
+        panel_ids = [message.id for channel in self.guild.text_channels for message in channel.messages]
+
+        report = await sync_guild(self.new_bot(), self.guild)
+
+        self.assertEqual(report["categories_created"], 0)
+        self.assertEqual(report["channels_created"], 0)
+        self.assertEqual(report["panels_created"], 0)
+        self.assertEqual([channel.id for channel in self.guild.text_channels], channel_ids)
+        self.assertEqual([message.id for channel in self.guild.text_channels
+                          for message in channel.messages], panel_ids)
+        for permission in omitted:
+            self.assertTrue(getattr(category.permissions_for(self.guild.me), permission))
+
+    async def test_forbidden_diagnoses_observed_parent_denies_without_disclosing_response(self):
+        from shop import __version__
+
+        create_channel = self.guild.create_text_channel.side_effect
+        omitted = ("mention_everyone", "create_public_threads", "create_private_threads",
+                   "send_messages_in_threads")
+        labels = ("Mentionner @everyone", "Créer des fils publics", "Créer des fils privés",
+                  "Envoyer des messages dans les fils")
+
+        async def denied_reviews(name, **kwargs):
+            if name.endswith("customer-reviews"):
+                # Simulate a snapshot observed at the API failure. This does
+                # not assert that Discord necessarily rejects these bits.
+                for permission in omitted:
+                    setattr(kwargs["category"].overwrites[self.guild.me], permission, None)
+                response = SimpleNamespace(
+                    status=403, reason="Forbidden", method="POST",
+                    url=URL("https://discord.com/api/v10/guilds/123/channels?private=QUERY_SECRET"),
+                    request_info=SimpleNamespace(method="POST"),
+                    headers={"Authorization": "HEADER_SECRET"},
+                )
+                raise discord.Forbidden(response, {
+                    "code": 50013, "message": "Missing Permissions RESPONSE_SECRET"})
+            return await create_channel(name, **kwargs)
+
+        self.guild.create_text_channel.side_effect = denied_reviews
+        with self.assertRaises(ProvisioningError) as caught:
+            await sync_guild(self.bot, self.guild)
+        diagnostic = str(caught.exception)
+        self.assertIn(__version__, diagnostic)
+        self.assertIn("création", diagnostic)
+        self.assertIn("POST /guilds/{id}/channels", diagnostic)
+        self.assertIn("Au niveau du serveur", diagnostic)
+        self.assertIn("Dans la catégorie", diagnostic)
+        server_line = next(line for line in diagnostic.splitlines()
+                           if "Au niveau du serveur" in line)
+        self.assertIn("aucun", server_line.lower())
+        parent_line = next(line for line in diagnostic.splitlines()
+                           if "Dans la catégorie" in line)
+        for label in labels:
+            self.assertIn(label, parent_line)
+        for sentinel in ("QUERY_SECRET", "HEADER_SECRET", "RESPONSE_SECRET"):
+            self.assertNotIn(sentinel, diagnostic)
+        self.assertIsNone(self.store.get_resource("channel", "customer-reviews"))
+
+    async def test_forbidden_modification_distinguishes_existing_channel_permissions(self):
+        await sync_guild(self.bot, self.guild)
+        reviews = self.guild.get_channel(self.store.get_resource("channel", "customer-reviews"))
+        original_channel_id = reviews.id
+        original_panel_id = reviews.messages[0].id
+        reviews.overwrites[self.guild.me].send_messages = False
+        response = SimpleNamespace(
+            status=403, reason="Forbidden", method="PATCH",
+            url=URL(f"https://discord.com/api/v10/channels/{reviews.id}"),
+            request_info=SimpleNamespace(method="PATCH"),
+        )
+        reviews.edit.side_effect = discord.Forbidden(
+            response, {"code": 50013, "message": "Missing Permissions"})
+
+        with self.assertRaises(ProvisioningError) as caught:
+            await sync_guild(self.bot, self.guild)
+
+        diagnostic = str(caught.exception)
+        self.assertIn("modification", diagnostic)
+        self.assertIn("PATCH /channels/{id}", diagnostic)
+        for scope in ("Au niveau du serveur", "Dans la catégorie"):
+            line = next(line for line in diagnostic.splitlines() if scope in line)
+            self.assertIn("aucun", line.lower())
+        channel_line = next(line for line in diagnostic.splitlines() if "Dans le salon" in line)
+        self.assertIn("Envoyer des messages", channel_line)
+        self.assertEqual(self.store.get_resource("channel", "customer-reviews"), original_channel_id)
+        self.assertEqual(reviews.messages[0].id, original_panel_id)
 
     async def test_second_sync_after_restart_creates_no_duplicates(self):
         self.settings.config["logo_url"] = "https://example.org/shop-logo.png"

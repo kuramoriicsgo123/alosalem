@@ -6,10 +6,12 @@ name are managed. Unknown objects are never deleted.
 
 from __future__ import annotations
 
+import re
 from typing import Any
 
 import discord
 
+from . import __version__
 from .presentation import build_information_embed, build_product_embed, panel_marker
 
 
@@ -45,6 +47,7 @@ REQUIRED_BOT_PERMISSIONS = (
 PERMISSION_LABELS = {
     "manage_roles": "Gérer les rôles", "manage_channels": "Gérer les salons",
     "view_channel": "Voir les salons", "send_messages": "Envoyer des messages",
+    "read_messages": "Voir les salons",  # Canonical name yielded by Permissions.__iter__.
     "embed_links": "Intégrer des liens", "attach_files": "Joindre des fichiers",
     "read_message_history": "Voir les anciens messages", "add_reactions": "Ajouter des réactions",
     "mention_everyone": "Mentionner @everyone, @here et tous les rôles",
@@ -56,6 +59,58 @@ PERMISSION_LABELS = {
 
 class ProvisioningError(RuntimeError):
     """Actionable setup failure that is safe to show to the server owner."""
+
+
+def _channel_forbidden(guild: discord.Guild, category: discord.CategoryChannel,
+                       channel: discord.TextChannel | None, overwrites: dict,
+                       exc: discord.Forbidden, *, channel_name: str) -> ProvisioningError:
+    """Describe only permission state and the failed setup route, never secrets.
+
+    These observations come from discord.py's cached objects. They help locate
+    the failure but cannot substitute for Discord's server-side authorization.
+    """
+    operation = "création" if channel is None else "modification"
+    lines = [
+        f"Discord refuse l'étape : {operation} du salon {channel_name} "
+        f"(HTTP {exc.status}, code {exc.code}).",
+        f"Version du bot : {__version__}",
+    ]
+    response = exc.response
+    method = getattr(response, "method", None)
+    path = getattr(getattr(response, "url", None), "path", "")
+    # Restrict output to channel setup routes; never dump a URL query, headers,
+    # exception body, or a different route that could contain a credential.
+    if isinstance(path, str) and method in ("POST", "PATCH", "PUT"):
+        match = re.fullmatch(r"(?:/api/v\d+)?(/(?:guilds/\d+/channels|channels/\d+))", path)
+        if match:
+            route = re.sub(r"\d+", "{id}", match.group(1))
+            lines.append(f"Requête refusée : {method} {route}")
+    lines.append("Permissions observées dans le cache Discord (diagnostic, pas une preuve de la cause) :")
+    member = guild.me
+    if member is not None:
+        requested = discord.Permissions.none()
+        for overwrite in overwrites.values():
+            allow, deny = overwrite.pair()
+            requested.value |= allow.value | deny.value
+
+        def missing_names(permissions: discord.Permissions, names: list[str] | tuple[str, ...]) -> str:
+            missing = [PERMISSION_LABELS.get(name, name) for name in names
+                       if not getattr(permissions, name)]
+            return ", ".join(missing) or "aucune permission requise manquante"
+
+        lines.append("Au niveau du serveur : " + missing_names(member.guild_permissions, REQUIRED_BOT_PERMISSIONS))
+        channel_requirements = [name for name, enabled in requested if enabled]
+        # Creating/updating a child also needs channel/permission management.
+        channel_requirements = list(dict.fromkeys(channel_requirements + ["manage_channels", "manage_roles"]))
+        lines.append(f"Dans la catégorie {category.name} : " + missing_names(
+            category.permissions_for(member), channel_requirements))
+        if channel is not None:
+            lines.append(f"Dans le salon {channel.name} : " + missing_names(
+                channel.permissions_for(member), channel_requirements))
+        lines.append(f"Rôle le plus haut du bot : {member.top_role.name} (ID {member.top_role.id})")
+    lines.append("Les éléments déjà créés sont conservés. Gardez ces lignes pour le diagnostic ; "
+                 "ne modifiez pas votre token pour cette erreur de permissions.")
+    return ProvisioningError("\n".join(lines))
 
 
 def _role_permissions(key: str) -> discord.Permissions:
@@ -234,17 +289,25 @@ async def _channel(bot: Any, guild: discord.Guild, category: discord.CategoryCha
         raise ProvisioningError(f"Shorten the topic of #{spec['name']} to leave room for its setup marker.")
     overwrites = _overwrites(bot, guild, roles, spec.get("mode", "readonly"))
     if channel is None:
-        channel = await guild.create_text_channel(
-            spec["name"], category=category, position=position, topic=topic,
-            overwrites=overwrites, reason="ASA shop setup",
-        )
+        try:
+            channel = await guild.create_text_channel(
+                spec["name"], category=category, position=position, topic=topic,
+                overwrites=overwrites, reason="ASA shop setup",
+            )
+        except discord.Forbidden as exc:
+            raise _channel_forbidden(guild, category, None, overwrites, exc,
+                                     channel_name=spec["name"]) from exc
         summary["channels_created"] += 1
     elif (channel.name != spec["name"] or channel.category_id != category.id
           or channel.topic != topic or channel.overwrites != overwrites or channel.position != position):
-        channel = await channel.edit(
-            name=spec["name"], category=category, position=position, topic=topic,
-            overwrites=overwrites, reason="ASA shop channel synchronization",
-        )
+        try:
+            channel = await channel.edit(
+                name=spec["name"], category=category, position=position, topic=topic,
+                overwrites=overwrites, reason="ASA shop channel synchronization",
+            )
+        except discord.Forbidden as exc:
+            raise _channel_forbidden(guild, category, channel, overwrites, exc,
+                                     channel_name=spec["name"]) from exc
     bot.store.set_resource("channel", key, channel.id)
     permissions = channel.permissions_for(guild.me)
     missing = [name for name in ("view_channel", "send_messages", "embed_links", "read_message_history") if not getattr(permissions, name)]

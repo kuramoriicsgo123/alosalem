@@ -100,10 +100,12 @@ class ConfigurationTests(unittest.TestCase):
 
     def test_cli_check_never_requires_token_or_connects(self):
         with patch.object(main, "ROOT", self.root), patch.object(main, "run_bot") as start:
-            with contextlib.redirect_stdout(io.StringIO()):
+            with contextlib.redirect_stdout(io.StringIO()) as output:
                 result = main.main(["--check"])
             self.assertEqual(result, 0)
             start.assert_not_called()
+        from shop import __version__
+        self.assertIn(f"Version du bot : {__version__}", output.getvalue())
 
     def test_cli_missing_configuration_is_actionable(self):
         with patch.object(main, "ROOT", self.root), contextlib.redirect_stderr(io.StringIO()) as output:

@@ -20,7 +20,7 @@ Ne publiez jamais votre token Discord. Le fichier `.env`, la configuration perso
 - 54 panneaux de produits/services avec de vrais boutons Discord verts.
 - Tickets privés, attribution au staff, commandes terminées, transcripts et reprise après redémarrage.
 - Catalogue, prix, images et identité modifiables dans les fichiers JSON.
-- Installation Windows et 51 tests automatiques hors ligne.
+- Installation Windows et 54 tests automatiques hors ligne.
 
 Le bot doit être invité et démarré pour agir sur votre serveur. La connexion Discord réelle et l'exécution sur Windows restent à valider chez vous. Les prix non choisis affichent **Contact Staff** ; les mécaniques ARK non confirmées sont signalées.
 
