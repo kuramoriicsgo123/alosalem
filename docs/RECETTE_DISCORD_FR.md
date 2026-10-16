@@ -9,7 +9,7 @@ Préparez le propriétaire du serveur, un membre staff et deux comptes de test o
 - [ ] Sur Windows 11, extraire le ZIP dans un chemin contenant des espaces et lancer `INSTALLER_WINDOWS.bat` sans droits administrateur.
 - [ ] Vérifier que l'installation conserve un `config.json` et un `.env` déjà présents.
 - [ ] Renseigner le bot, son serveur et les intents, puis lancer `DEMARRER_WINDOWS.bat`.
-- [ ] Vérifier la permission **Ajouter des réactions** du rôle propre au bot, puis la création de `customer-reviews` après `available-stock`, sans permission Administrator.
+- [ ] Vérifier toutes les permissions du rôle propre au bot, y compris **Ajouter des réactions**, les trois permissions de fils et **Mentionner @everyone**, puis la création de `customer-reviews` après `available-stock`, sans permission Administrator.
 - [ ] Vérifier les catégories, l'ordre des salons et les sept rôles attendus.
 - [ ] Vérifier qu'il existe un seul salon central `open-a-ticket` et aucun service Character Advertisement.
 - [ ] Vérifier que les salons staff et les journaux sont invisibles aux deux clients.

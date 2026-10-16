@@ -186,6 +186,47 @@ class ProvisioningTests(unittest.IsolatedAsyncioTestCase):
                 permissions.handle_overwrite(allow.value, deny.value)
         return permissions
 
+    async def test_missing_permission_to_deny_is_reported_before_any_mutation(self):
+        labels = {
+            "mention_everyone": "Mentionner @everyone",
+            "create_public_threads": "Créer des fils publics",
+            "create_private_threads": "Créer des fils privés",
+            "send_messages_in_threads": "Envoyer des messages dans les fils",
+        }
+        for permission, label in labels.items():
+            with self.subTest(permission=permission):
+                self.guild.me.guild_permissions = discord.Permissions(
+                    **dict.fromkeys(REQUIRED_BOT_PERMISSIONS, True))
+                setattr(self.guild.me.guild_permissions, permission, False)
+                with self.assertRaises(ProvisioningError) as caught:
+                    await sync_guild(self.bot, self.guild)
+                self.assertIn(label, str(caught.exception))
+                self.assertIn("interdire aux membres", str(caught.exception))
+                self.guild.create_role.assert_not_awaited()
+                self.guild.create_category.assert_not_awaited()
+                self.guild.create_text_channel.assert_not_awaited()
+
+    async def test_invitation_covers_all_allowed_and_denied_channel_permissions(self):
+        from main import invite_permissions
+
+        await sync_guild(self.bot, self.guild)
+        policies = [channel.overwrites for channel in
+                    self.guild.categories + self.guild.text_channels]
+        owner = discord.Object(id=987654321, type=discord.Member)
+        for closed, frozen in ((False, False), (False, True), (True, False)):
+            policies.append(self.bot.tickets._overwrites(
+                self.guild, owner, "rex-lines", closed=closed, frozen=frozen))
+        granted = invite_permissions()
+        for policy in policies:
+            for overwrite in policy.values():
+                allow, deny = overwrite.pair()
+                # Documented Create Guild Channel rule applies to both masks.
+                self.assertEqual((allow.value | deny.value) & ~granted.value, 0)
+                self.assertIsNone(overwrite.manage_roles)
+                self.assertIsNone(overwrite.administrator)
+            for permission in REQUIRED_BOT_PERMISSIONS:
+                self.assertTrue(getattr(self.effective_bot_permissions(policy), permission))
+
     async def test_bot_retains_required_permissions_inside_every_category(self):
         await sync_guild(self.bot, self.guild)
         for category in self.guild.categories:

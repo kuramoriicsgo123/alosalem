@@ -36,6 +36,10 @@ ROLE_COLORS = {
 REQUIRED_BOT_PERMISSIONS = (
     "manage_roles", "manage_channels", "view_channel", "send_messages",
     "embed_links", "attach_files", "read_message_history", "add_reactions",
+    # Discord checks permissions that an overwrite denies as well as allows:
+    # https://docs.discord.com/developers/resources/guild#create-guild-channel
+    "mention_everyone", "create_public_threads", "create_private_threads",
+    "send_messages_in_threads",
 )
 
 PERMISSION_LABELS = {
@@ -43,6 +47,10 @@ PERMISSION_LABELS = {
     "view_channel": "Voir les salons", "send_messages": "Envoyer des messages",
     "embed_links": "Intégrer des liens", "attach_files": "Joindre des fichiers",
     "read_message_history": "Voir les anciens messages", "add_reactions": "Ajouter des réactions",
+    "mention_everyone": "Mentionner @everyone, @here et tous les rôles",
+    "create_public_threads": "Créer des fils publics",
+    "create_private_threads": "Créer des fils privés",
+    "send_messages_in_threads": "Envoyer des messages dans les fils",
 }
 
 
@@ -66,7 +74,8 @@ def _preflight(guild: discord.Guild) -> discord.Member:
         raise ProvisioningError(
             "Permissions manquantes pour le bot : " + ", ".join(PERMISSION_LABELS[name] for name in missing)
             + ". Dans Discord : Paramètres du serveur → Rôles → rôle portant le nom du bot → Permissions. "
-            "Activez ces permissions, enregistrez et relancez. Administrator est inutile."
+            "Activez ces permissions, enregistrez et relancez. Discord exige aussi les permissions "
+            "que le bot doit interdire aux membres. Administrator est inutile."
         )
     return member
 
@@ -99,6 +108,8 @@ def _overwrites(bot: Any, guild: discord.Guild, roles: dict[str, discord.Role], 
         guild.me: discord.PermissionOverwrite(
             view_channel=True, read_message_history=True, send_messages=True,
             embed_links=True, attach_files=True, manage_channels=True, add_reactions=True,
+            create_public_threads=True, create_private_threads=True,
+            send_messages_in_threads=True, mention_everyone=True,
         ),
     }
     authorized = bot.settings.config.get(
