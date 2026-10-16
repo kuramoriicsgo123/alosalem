@@ -8,6 +8,11 @@
     "kind": "boss",
     "fields": [
       {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
+      {
         "name": "Map",
         "value": "Genesis: Part 1",
         "inline": false
@@ -34,7 +39,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, Small Tribes server number, map and desired difficulty.",
         "inline": false
       }
     ],
@@ -52,6 +57,11 @@
     "description": "Prepare for the Aberration arena with an agreed difficulty, equipment checklist and survivor transfer plan.\n\nAll prices are fixed and non-negotiable.",
     "kind": "boss",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "Aberration",
@@ -79,7 +89,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, Small Tribes server number, map and desired difficulty.",
         "inline": false
       }
     ],
@@ -97,6 +107,11 @@
     "description": "Book a Scorched Earth boss run with a clear preparation checklist and a difficulty chosen for your survivor.\n\nAll prices are fixed and non-negotiable.",
     "kind": "boss",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "Scorched Earth",
@@ -124,7 +139,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, Small Tribes server number, map and desired difficulty.",
         "inline": false
       }
     ],
@@ -142,6 +157,11 @@
     "description": "Plan your Tek Cave and Overseer run with staff, including entry requirements, timing and survivor recovery.\n\nAll prices are fixed and non-negotiable.",
     "kind": "boss",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "The Island — Tek Cave",
@@ -169,7 +189,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, Small Tribes server number, map and desired difficulty.",
         "inline": false
       }
     ],
@@ -187,6 +207,11 @@
     "description": "Arrange an Extinction encounter with difficulty-specific preparation, coordinated participation and an agreed reward policy.\n\nAll prices are fixed and non-negotiable.",
     "kind": "boss",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "Extinction",
@@ -214,7 +239,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, Small Tribes server number, map and desired difficulty.",
         "inline": false
       }
     ],
@@ -236,6 +261,11 @@
     "description": "Request information about this named encounter. Staff must first verify the exact ASA map, content pack or mod and its mechanics.\n\nAll prices are fixed and non-negotiable.",
     "kind": "boss",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "Lost Colony — Lost King and Lost Queen encounter",
@@ -263,7 +293,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, Small Tribes server number, map and desired difficulty.",
         "inline": false
       }
     ],
@@ -285,6 +315,11 @@
     "description": "Ask staff to identify the Kraken encounter on your ASA server before a run, difficulty or reward can be offered.\n\nAll prices are fixed and non-negotiable.",
     "kind": "boss",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "To be verified — exact ASA content or mod required",
@@ -312,7 +347,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, Small Tribes server number, map and desired difficulty.",
         "inline": false
       }
     ],
@@ -330,6 +365,11 @@
     "description": "Send your map and server details so staff can verify this encounter, access conditions and the service that can actually be delivered.\n\nAll prices are fixed and non-negotiable.",
     "kind": "boss",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "To be verified — exact ASA map/build required",
@@ -357,7 +397,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, Small Tribes server number, map and desired difficulty.",
         "inline": false
       }
     ],
@@ -375,6 +415,11 @@
     "description": "Choose Broodmother, Megapithecus or Dragon. Staff confirms which encounter, difficulty and reward conditions are included in your booking.\n\nAll prices are fixed and non-negotiable.",
     "kind": "boss",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "The Island — Broodmother / Megapithecus / Dragon",
@@ -402,7 +447,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, Small Tribes server number, map and desired difficulty.",
         "inline": false
       }
     ],
@@ -420,6 +465,11 @@
     "description": "Discuss a Ragnarok arena booking with staff. The encounter composition and rules must be checked against your ASA build.\n\nAll prices are fixed and non-negotiable.",
     "kind": "boss",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "Ragnarok — exact ASA arena composition to be verified",
@@ -447,7 +497,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, Small Tribes server number, map and desired difficulty.",
         "inline": false
       }
     ],
@@ -465,6 +515,11 @@
     "description": "Plan an underwater encounter with suitable equipment, ocean access and staff-confirmed participation requirements.\n\nAll prices are fixed and non-negotiable.",
     "kind": "boss",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "Genesis: Part 1 — ocean arena",
@@ -492,7 +547,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, server type, map and desired difficulty.",
+        "value": "Click below to purchase this Boss Fight. For unverified encounters, this opens an information request first. Include platform, Small Tribes server number, map and desired difficulty.",
         "inline": false
       }
     ],
@@ -522,7 +577,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -531,13 +586,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -565,7 +620,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -574,13 +629,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -608,7 +663,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -617,13 +672,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -651,7 +706,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -660,13 +715,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -694,7 +749,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -703,13 +758,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -737,7 +792,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -746,13 +801,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -780,7 +835,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -789,13 +844,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -823,7 +878,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -832,13 +887,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -866,7 +921,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -875,13 +930,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -909,7 +964,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -918,13 +973,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -952,7 +1007,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -961,13 +1016,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -995,7 +1050,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -1004,13 +1059,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -1038,7 +1093,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -1047,13 +1102,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -1081,7 +1136,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -1090,13 +1145,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -1124,7 +1179,7 @@
       },
       {
         "name": "Quantity",
-        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource, stack settings and server rules; confirm the total units before payment.",
+        "value": "1 Dedicated Storage per Dedi package. Actual unit count depends on the resource and current Small Tribes stack limits; confirm the total units before payment.",
         "inline": false
       },
       {
@@ -1133,13 +1188,13 @@
         "inline": false
       },
       {
-        "name": "Server Types",
-        "value": "Official 1x • Small Tribes • PvE",
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
         "inline": false
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the package, server type, map and delivery details. Staff confirms stock and your fixed quote.",
+        "value": "Click below and include the package, Small Tribes server number, map and delivery details. Staff confirms stock and your fixed quote.",
         "inline": false
       }
     ],
@@ -1155,6 +1210,11 @@
     "description": "Powerful Rex breeding stock for your next project. Review the seller-supplied line details and ask staff to confirm the exact animal or pair.\n\nAll prices are fixed and non-negotiable.",
     "kind": "dino",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Species / Variant",
         "value": "Rex — variant to be added",
@@ -1197,7 +1257,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "value": "Click below and include your Small Tribes server number, desired creature or pair, quantity and preferred colors.",
         "inline": false
       }
     ],
@@ -1221,6 +1281,11 @@
     "description": "Explore available Giganotosaurus lines. The listing must identify the exact species and current breeding stock before an order is confirmed.\n\nAll prices are fixed and non-negotiable.",
     "kind": "dino",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Species / Variant",
         "value": "Giganotosaurus — variant to be added",
@@ -1263,7 +1328,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "value": "Click below and include your Small Tribes server number, desired creature or pair, quantity and preferred colors.",
         "inline": false
       }
     ],
@@ -1287,6 +1352,11 @@
     "description": "Find Wyvern stock with the variant, age and breeding eligibility confirmed by staff. The exact type is agreed before payment.\n\nAll prices are fixed and non-negotiable.",
     "kind": "dino",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Species / Variant",
         "value": "Wyvern — variant to be added",
@@ -1329,7 +1399,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "value": "Click below and include your Small Tribes server number, desired creature or pair, quantity and preferred colors.",
         "inline": false
       }
     ],
@@ -1353,6 +1423,11 @@
     "description": "Request available Reaper stock or a supported Reaper service. Reapers are not standard breedable pairs; staff must explain the exact offering and acquisition method.\n\nAll prices are fixed and non-negotiable.",
     "kind": "dino",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Species / Variant",
         "value": "Reaper — variant to be added",
@@ -1395,7 +1470,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "value": "Click below and include your Small Tribes server number, desired creature or pair, quantity and preferred colors.",
         "inline": false
       }
     ],
@@ -1419,6 +1494,11 @@
     "description": "Browse Therizinosaurus breeding stock for your tribe. Staff confirms the animal, breeding details and available color options.\n\nAll prices are fixed and non-negotiable.",
     "kind": "dino",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Species / Variant",
         "value": "Therizinosaurus — variant to be added",
@@ -1461,7 +1541,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "value": "Click below and include your Small Tribes server number, desired creature or pair, quantity and preferred colors.",
         "inline": false
       }
     ],
@@ -1485,6 +1565,11 @@
     "description": "Choose Stegosaurus stock for your breeding plans. Review confirmed health, mutations and colors before ordering.\n\nAll prices are fixed and non-negotiable.",
     "kind": "dino",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Species / Variant",
         "value": "Stegosaurus — variant to be added",
@@ -1527,7 +1612,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "value": "Click below and include your Small Tribes server number, desired creature or pair, quantity and preferred colors.",
         "inline": false
       }
     ],
@@ -1551,6 +1636,11 @@
     "description": "Ask about tanking-oriented creatures. Staff identifies the species and confirms its actual stats; no performance guarantee is implied.\n\nAll prices are fixed and non-negotiable.",
     "kind": "dino",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Species / Variant",
         "value": "Soaker — variant to be added",
@@ -1593,7 +1683,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "value": "Click below and include your Small Tribes server number, desired creature or pair, quantity and preferred colors.",
         "inline": false
       }
     ],
@@ -1617,6 +1707,11 @@
     "description": "Request Rhyniognatha stock or an acquisition service. Rhyniognatha uses a special reproduction process, not ordinary breeding pairs; confirm the precise offer.\n\nAll prices are fixed and non-negotiable.",
     "kind": "dino",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Species / Variant",
         "value": "Rhyniognatha — variant to be added",
@@ -1659,7 +1754,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "value": "Click below and include your Small Tribes server number, desired creature or pair, quantity and preferred colors.",
         "inline": false
       }
     ],
@@ -1683,6 +1778,11 @@
     "description": "Request another species by name. Staff confirms availability, breeding eligibility and the exact stock details before quoting.\n\nAll prices are fixed and non-negotiable.",
     "kind": "dino",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Species / Variant",
         "value": "Other Dino — variant to be added",
@@ -1725,7 +1825,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include your server type, desired creature or pair, quantity and preferred colors.",
+        "value": "Click below and include your Small Tribes server number, desired creature or pair, quantity and preferred colors.",
         "inline": false
       }
     ],
@@ -1746,7 +1846,7 @@
     "category": "base-sales",
     "channel": "🏡・bases-for-sale",
     "title": "🏠 ARK BASES FOR SALE",
-    "description": "Browse available ASA base listings. Each offer needs current screenshots, a clear inventory and an agreed transfer process.\n\nAll prices are fixed and non-negotiable.",
+    "description": "Browse available ASA Small Tribes PvP base listings. Each offer needs current screenshots, a clear inventory and an agreed transfer process.\n\nAll prices are fixed and non-negotiable.",
     "kind": "base",
     "fields": [
       {
@@ -1761,61 +1861,7 @@
       },
       {
         "name": "Server Type",
-        "value": "To be added",
-        "inline": true
-      },
-      {
-        "name": "Game Mode",
-        "value": "PvP or PvE — to be added",
-        "inline": true
-      },
-      {
-        "name": "Description",
-        "value": "Individual base description to be added",
-        "inline": false
-      },
-      {
-        "name": "Included Structures",
-        "value": "To be added — only the agreed inventory is included",
-        "inline": false
-      },
-      {
-        "name": "Screenshots",
-        "value": "To be added — ask staff for current screenshots",
-        "inline": false
-      },
-      {
-        "name": "How to Order",
-        "value": "Click Buy Base and provide the listing reference, map, server and any transfer questions.",
-        "inline": false
-      }
-    ],
-    "button_label": "Buy Base",
-    "availability": "No confirmed listings yet — contact staff",
-    "image_url": "",
-    "screenshots": []
-  },
-  {
-    "id": "pvp-bases",
-    "category": "base-sales",
-    "channel": "🛡️・pvp-bases",
-    "title": "🏠 PVP BASES FOR SALE",
-    "description": "Discuss available PvP base listings and the exact structures, ownership conditions and transfer window.\n\nAll prices are fixed and non-negotiable.",
-    "kind": "base",
-    "fields": [
-      {
-        "name": "Base Name / Reference",
-        "value": "To be added",
-        "inline": false
-      },
-      {
-        "name": "Map",
-        "value": "To be added",
-        "inline": true
-      },
-      {
-        "name": "Server Type",
-        "value": "To be added",
+        "value": "ASA Small Tribes (PvP)",
         "inline": true
       },
       {
@@ -1840,7 +1886,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click Buy Base and provide the listing reference, map, server and any transfer questions.",
+        "value": "Click Buy Base and provide the listing reference, map, Small Tribes server number and any transfer questions.",
         "inline": false
       }
     ],
@@ -1850,11 +1896,11 @@
     "screenshots": []
   },
   {
-    "id": "pve-bases",
+    "id": "pvp-bases",
     "category": "base-sales",
-    "channel": "🏘️・pve-bases",
-    "title": "🏠 PVE BASES FOR SALE",
-    "description": "Find a PvE base suited to your next project. Staff confirms the location, included structures and transfer conditions.\n\nAll prices are fixed and non-negotiable.",
+    "channel": "🛡️・pvp-bases",
+    "title": "🏠 PVP BASES FOR SALE",
+    "description": "Discuss available Small Tribes PvP base listings and the exact structures, ownership conditions and transfer window.\n\nAll prices are fixed and non-negotiable.",
     "kind": "base",
     "fields": [
       {
@@ -1869,12 +1915,12 @@
       },
       {
         "name": "Server Type",
-        "value": "To be added",
+        "value": "ASA Small Tribes (PvP)",
         "inline": true
       },
       {
         "name": "Game Mode",
-        "value": "PvE",
+        "value": "PvP",
         "inline": true
       },
       {
@@ -1894,7 +1940,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click Buy Base and provide the listing reference, map, server and any transfer questions.",
+        "value": "Click Buy Base and provide the listing reference, map, Small Tribes server number and any transfer questions.",
         "inline": false
       }
     ],
@@ -1908,9 +1954,14 @@
     "category": "base-sales",
     "channel": "📢・base-advertisement",
     "title": "🏠 BASE ADVERTISEMENT SERVICE 🏠",
-    "description": "Give your ASA base listing a clear, dedicated presentation in our shop. We can publish an advertisement with your description, screenshots and contact information after staff review. This is a new shop: audience size, views, enquiries and sales are not guaranteed.\n\nAll prices are fixed and non-negotiable.",
+    "description": "Give your ASA Small Tribes PvP base listing a clear, dedicated presentation in our shop. We can publish an advertisement with your description, screenshots and contact information after staff review. This is a new shop: audience size, views, enquiries and sales are not guaranteed.\n\nAll prices are fixed and non-negotiable.",
     "kind": "advertisement",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Available Packages",
         "value": "One-Time Advertisement • 5 Posts Package • 10 Posts Package",
@@ -1918,7 +1969,7 @@
       },
       {
         "name": "What to Provide",
-        "value": "Map, server type, PvP/PvE mode, base description, included structures, screenshots, asking price and a Discord contact.",
+        "value": "Map, Small Tribes server number, base description, included structures, screenshots, asking price and a Discord contact.",
         "inline": false
       },
       {
@@ -1945,6 +1996,11 @@
     "kind": "item",
     "fields": [
       {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
+      {
         "name": "Listing Details",
         "value": "To be added",
         "inline": false
@@ -1956,7 +2012,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the desired item, quantity, server type and map.",
+        "value": "Click below and include the desired item, quantity, Small Tribes server number and map.",
         "inline": false
       }
     ],
@@ -1973,6 +2029,11 @@
     "kind": "item",
     "fields": [
       {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
+      {
         "name": "Listing Details",
         "value": "To be added",
         "inline": false
@@ -1984,7 +2045,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the desired item, quantity, server type and map.",
+        "value": "Click below and include the desired item, quantity, Small Tribes server number and map.",
         "inline": false
       }
     ],
@@ -2001,6 +2062,11 @@
     "kind": "item",
     "fields": [
       {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
+      {
         "name": "Listing Details",
         "value": "To be added",
         "inline": false
@@ -2012,7 +2078,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the desired item, quantity, server type and map.",
+        "value": "Click below and include the desired item, quantity, Small Tribes server number and map.",
         "inline": false
       }
     ],
@@ -2029,6 +2095,11 @@
     "kind": "item",
     "fields": [
       {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
+      {
         "name": "Listing Details",
         "value": "To be added",
         "inline": false
@@ -2040,7 +2111,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the desired item, quantity, server type and map.",
+        "value": "Click below and include the desired item, quantity, Small Tribes server number and map.",
         "inline": false
       }
     ],
@@ -2057,6 +2128,11 @@
     "kind": "item",
     "fields": [
       {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
+      {
         "name": "Listing Details",
         "value": "To be added",
         "inline": false
@@ -2068,7 +2144,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the desired item, quantity, server type and map.",
+        "value": "Click below and include the desired item, quantity, Small Tribes server number and map.",
         "inline": false
       }
     ],
@@ -2085,6 +2161,11 @@
     "kind": "item",
     "fields": [
       {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
+      {
         "name": "Listing Details",
         "value": "To be added",
         "inline": false
@@ -2096,7 +2177,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the desired item, quantity, server type and map.",
+        "value": "Click below and include the desired item, quantity, Small Tribes server number and map.",
         "inline": false
       }
     ],
@@ -2113,6 +2194,11 @@
     "kind": "item",
     "fields": [
       {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
+      {
         "name": "Listing Details",
         "value": "To be added",
         "inline": false
@@ -2124,7 +2210,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and include the desired item, quantity, server type and map.",
+        "value": "Click below and include the desired item, quantity, Small Tribes server number and map.",
         "inline": false
       }
     ],
@@ -2140,6 +2226,11 @@
     "description": "Explore The Island with a staff-arranged note route. The route, required equipment and included discoveries are agreed in advance.\n\nAll prices are fixed and non-negotiable.",
     "kind": "note",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "The Island",
@@ -2162,7 +2253,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and provide your server type, map access, availability and the route you need.",
+        "value": "Click below and provide your Small Tribes server number, map access, availability and the route you need.",
         "inline": false
       }
     ],
@@ -2178,6 +2269,11 @@
     "description": "Explore Scorched Earth with a staff-arranged note route. The route, required equipment and included discoveries are agreed in advance.\n\nAll prices are fixed and non-negotiable.",
     "kind": "note",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "Scorched Earth",
@@ -2200,7 +2296,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and provide your server type, map access, availability and the route you need.",
+        "value": "Click below and provide your Small Tribes server number, map access, availability and the route you need.",
         "inline": false
       }
     ],
@@ -2216,6 +2312,11 @@
     "description": "Explore Aberration with a staff-arranged note route. The route, required equipment and included discoveries are agreed in advance.\n\nAll prices are fixed and non-negotiable.",
     "kind": "note",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "Aberration",
@@ -2238,7 +2339,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and provide your server type, map access, availability and the route you need.",
+        "value": "Click below and provide your Small Tribes server number, map access, availability and the route you need.",
         "inline": false
       }
     ],
@@ -2254,6 +2355,11 @@
     "description": "Explore Extinction with a staff-arranged note route. The route, required equipment and included discoveries are agreed in advance.\n\nAll prices are fixed and non-negotiable.",
     "kind": "note",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "Map",
         "value": "Extinction",
@@ -2276,7 +2382,7 @@
       },
       {
         "name": "How to Order",
-        "value": "Click below and provide your server type, map access, availability and the route you need.",
+        "value": "Click below and provide your Small Tribes server number, map access, availability and the route you need.",
         "inline": false
       }
     ],
@@ -2289,9 +2395,14 @@
     "category": "tickets-services",
     "channel": "🤝・middleman-service",
     "title": "🤝 MIDDLEMAN SERVICE",
-    "description": "Request independent coordination for an agreed trade. Staff must explain the scope and fees before you proceed. No trade is guaranteed risk-free.\n\nAll prices are fixed and non-negotiable.",
+    "description": "Request independent coordination for an agreed ASA Small Tribes trade. Staff must explain the scope and fees before you proceed. No trade is guaranteed risk-free.\n\nAll prices are fixed and non-negotiable.",
     "kind": "service",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "What to Include",
         "value": "Transaction type, items or base involved, participants and your preferred time. Do not send passwords or account access.",
@@ -2320,6 +2431,11 @@
     "description": "Submit a private report for staff review. Provide verifiable evidence and avoid public accusations or sharing personal information. A report does not establish guilt.",
     "kind": "service",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "What to Include",
         "value": "Discord user IDs, message links, dates and relevant transaction evidence. Staff will review the report privately.",
@@ -2351,12 +2467,17 @@
     "category": "tickets-services",
     "channel": "👤・become-a-seller",
     "title": "👤 BECOME A SELLER",
-    "description": "Apply to offer products through this shop. Staff reviews product knowledge, listing accuracy and the ability to follow our rules; acceptance is not guaranteed.",
+    "description": "Apply to offer ASA Small Tribes products through this shop. Staff reviews product knowledge, listing accuracy and the ability to follow our rules; acceptance is not guaranteed.",
     "kind": "service",
     "fields": [
       {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
+      {
         "name": "What to Include",
-        "value": "Your experience, products offered, server types and availability. Never submit passwords or identity documents in the ticket.",
+        "value": "Your experience, products offered, Small Tribes server numbers and availability. Never submit passwords or identity documents in the ticket.",
         "inline": false
       },
       {
@@ -2389,6 +2510,11 @@
     "kind": "service",
     "fields": [
       {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
+      {
         "name": "What to Include",
         "value": "Your question, relevant order reference and message links if applicable. Never include secrets or passwords.",
         "inline": false
@@ -2419,9 +2545,14 @@
     "category": "shop-information",
     "channel": null,
     "title": "🛒 GENERAL ORDERS",
-    "description": "Tell staff what you would like to order. Include the product, quantity, map and server type.",
+    "description": "Tell staff what you would like to order. Include the product, quantity, map and Small Tribes server number.",
     "kind": "service",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "How to Order",
         "value": "Use the corresponding option in the central ticket menu. Staff confirms availability and a fixed quote before payment.",
@@ -2437,9 +2568,14 @@
     "category": "dedi-resources",
     "channel": null,
     "title": "🛒 DEDI ITEMS",
-    "description": "Request a Dedi resource order. Include the resource, package, map and server type.",
+    "description": "Request a Dedi resource order. Include the resource, package, map and Small Tribes server number.",
     "kind": "service",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "How to Order",
         "value": "Use the corresponding option in the central ticket menu. Staff confirms availability and a fixed quote before payment.",
@@ -2455,9 +2591,14 @@
     "category": "dino-lines",
     "channel": null,
     "title": "🛒 DINO LINES",
-    "description": "Request a creature or breeding line. Include the species, quantity, desired stats and server.",
+    "description": "Request a creature or breeding line. Include the species, quantity, desired stats and Small Tribes server number.",
     "kind": "service",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "How to Order",
         "value": "Use the corresponding option in the central ticket menu. Staff confirms availability and a fixed quote before payment.",
@@ -2473,9 +2614,14 @@
     "category": "blueprints-items",
     "channel": null,
     "title": "🛒 BLUEPRINTS",
-    "description": "Request a blueprint. Include the item, desired quality, server type and map.",
+    "description": "Request a blueprint. Include the item, desired quality, Small Tribes server number and map.",
     "kind": "service",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "How to Order",
         "value": "Use the corresponding option in the central ticket menu. Staff confirms availability and a fixed quote before payment.",
@@ -2491,9 +2637,14 @@
     "category": "base-sales",
     "channel": null,
     "title": "🛒 SELL BASE",
-    "description": "Offer a base for staff review. Include your map, server, mode, included structures, screenshots and asking price.",
+    "description": "Offer an ASA Small Tribes PvP base for staff review. Include your map, Small Tribes server number, included structures, screenshots and asking price.",
     "kind": "service",
     "fields": [
+      {
+        "name": "Server Type",
+        "value": "ASA Small Tribes (PvP)",
+        "inline": false
+      },
       {
         "name": "How to Order",
         "value": "Use the corresponding option in the central ticket menu. Staff confirms availability and a fixed quote before payment.",

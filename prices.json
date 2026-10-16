@@ -2,182 +2,76 @@
   "currency": "EUR",
   "products": {
     "master-controller": {
-      "Official 1x": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
       "Small Tribes": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
-      "PvE": {
         "Gamma": null,
         "Beta": null,
         "Alpha": null
       }
     },
     "rockwell": {
-      "Official 1x": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
       "Small Tribes": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
-      "PvE": {
         "Gamma": null,
         "Beta": null,
         "Alpha": null
       }
     },
     "manticore": {
-      "Official 1x": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
       "Small Tribes": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
-      "PvE": {
         "Gamma": null,
         "Beta": null,
         "Alpha": null
       }
     },
     "overseer": {
-      "Official 1x": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
       "Small Tribes": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
-      "PvE": {
         "Gamma": null,
         "Beta": null,
         "Alpha": null
       }
     },
     "king-titan": {
-      "Official 1x": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
       "Small Tribes": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
-      "PvE": {
         "Gamma": null,
         "Beta": null,
         "Alpha": null
       }
     },
     "lost-queen": {
-      "Official 1x": {
-        "Quote": null
-      },
       "Small Tribes": {
-        "Quote": null
-      },
-      "PvE": {
         "Quote": null
       }
     },
     "kraken": {
-      "Official 1x": {
-        "Quote": null
-      },
       "Small Tribes": {
-        "Quote": null
-      },
-      "PvE": {
         "Quote": null
       }
     },
     "nunatak": {
-      "Official 1x": {
-        "Quote": null
-      },
       "Small Tribes": {
-        "Quote": null
-      },
-      "PvE": {
         "Quote": null
       }
     },
     "island-bosses": {
-      "Official 1x": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
       "Small Tribes": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
-      "PvE": {
         "Gamma": null,
         "Beta": null,
         "Alpha": null
       }
     },
     "ragnarok-boss": {
-      "Official 1x": {
-        "Quote": null
-      },
       "Small Tribes": {
-        "Quote": null
-      },
-      "PvE": {
         "Quote": null
       }
     },
     "moeder": {
-      "Official 1x": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
       "Small Tribes": {
-        "Gamma": null,
-        "Beta": null,
-        "Alpha": null
-      },
-      "PvE": {
         "Gamma": null,
         "Beta": null,
         "Alpha": null
       }
     },
     "element-dust": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -185,19 +79,7 @@
       }
     },
     "adv": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -205,19 +87,7 @@
       }
     },
     "metal-ingots": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -225,19 +95,7 @@
       }
     },
     "polymer": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -245,19 +103,7 @@
       }
     },
     "electronics": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -265,19 +111,7 @@
       }
     },
     "cementing-paste": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -285,19 +119,7 @@
       }
     },
     "crystal": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -305,19 +127,7 @@
       }
     },
     "black-pearls": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -325,19 +135,7 @@
       }
     },
     "silica-pearls": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -345,19 +143,7 @@
       }
     },
     "oil": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -365,19 +151,7 @@
       }
     },
     "gunpowder": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -385,19 +159,7 @@
       }
     },
     "stone": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -405,19 +167,7 @@
       }
     },
     "wood": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -425,19 +175,7 @@
       }
     },
     "charcoal": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -445,19 +183,7 @@
       }
     },
     "other-resources": {
-      "Official 1x": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
       "Small Tribes": {
-        "1 Dedi": null,
-        "5 Dedis": null,
-        "10 Dedis": null,
-        "Custom Quantity": null
-      },
-      "PvE": {
         "1 Dedi": null,
         "5 Dedis": null,
         "10 Dedis": null,
@@ -465,380 +191,167 @@
       }
     },
     "rex-lines": {
-      "Official 1x": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
       "Small Tribes": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
-      "PvE": {
         "Single Dinosaur": null,
         "Breeding Pair": null
       }
     },
     "giga-lines": {
-      "Official 1x": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
       "Small Tribes": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
-      "PvE": {
         "Single Dinosaur": null,
         "Breeding Pair": null
       }
     },
     "wyvern-lines": {
-      "Official 1x": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
       "Small Tribes": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
-      "PvE": {
         "Single Dinosaur": null,
         "Breeding Pair": null
       }
     },
     "reaper-lines": {
-      "Official 1x": {
-        "Single Dinosaur": null,
-        "Acquisition Service": null
-      },
       "Small Tribes": {
-        "Single Dinosaur": null,
-        "Acquisition Service": null
-      },
-      "PvE": {
         "Single Dinosaur": null,
         "Acquisition Service": null
       }
     },
     "therizino-lines": {
-      "Official 1x": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
       "Small Tribes": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
-      "PvE": {
         "Single Dinosaur": null,
         "Breeding Pair": null
       }
     },
     "stego-lines": {
-      "Official 1x": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
       "Small Tribes": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
-      "PvE": {
         "Single Dinosaur": null,
         "Breeding Pair": null
       }
     },
     "soaker-lines": {
-      "Official 1x": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
       "Small Tribes": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
-      "PvE": {
         "Single Dinosaur": null,
         "Breeding Pair": null
       }
     },
     "rhynio-lines": {
-      "Official 1x": {
-        "Single Dinosaur": null,
-        "Acquisition Service": null
-      },
       "Small Tribes": {
-        "Single Dinosaur": null,
-        "Acquisition Service": null
-      },
-      "PvE": {
         "Single Dinosaur": null,
         "Acquisition Service": null
       }
     },
     "other-dino-lines": {
-      "Official 1x": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
       "Small Tribes": {
-        "Single Dinosaur": null,
-        "Breeding Pair": null
-      },
-      "PvE": {
         "Single Dinosaur": null,
         "Breeding Pair": null
       }
     },
     "bases-for-sale": {
-      "Official 1x": {
-        "Base Price": null
-      },
       "Small Tribes": {
-        "Base Price": null
-      },
-      "PvE": {
         "Base Price": null
       }
     },
     "pvp-bases": {
-      "Official 1x": {
-        "Base Price": null
-      },
       "Small Tribes": {
-        "Base Price": null
-      },
-      "PvE": {
-        "Base Price": null
-      }
-    },
-    "pve-bases": {
-      "Official 1x": {
-        "Base Price": null
-      },
-      "Small Tribes": {
-        "Base Price": null
-      },
-      "PvE": {
         "Base Price": null
       }
     },
     "base-advertisement": {
-      "Official 1x": {
-        "One-Time Advertisement": null,
-        "5 Posts Package": null,
-        "10 Posts Package": null
-      },
       "Small Tribes": {
-        "One-Time Advertisement": null,
-        "5 Posts Package": null,
-        "10 Posts Package": null
-      },
-      "PvE": {
         "One-Time Advertisement": null,
         "5 Posts Package": null,
         "10 Posts Package": null
       }
     },
     "weapon-blueprints": {
-      "Official 1x": {
-        "Item / Package": null
-      },
       "Small Tribes": {
-        "Item / Package": null
-      },
-      "PvE": {
         "Item / Package": null
       }
     },
     "armor-blueprints": {
-      "Official 1x": {
-        "Item / Package": null
-      },
       "Small Tribes": {
-        "Item / Package": null
-      },
-      "PvE": {
         "Item / Package": null
       }
     },
     "saddle-blueprints": {
-      "Official 1x": {
-        "Item / Package": null
-      },
       "Small Tribes": {
-        "Item / Package": null
-      },
-      "PvE": {
         "Item / Package": null
       }
     },
     "weapons": {
-      "Official 1x": {
-        "Item / Package": null
-      },
       "Small Tribes": {
-        "Item / Package": null
-      },
-      "PvE": {
         "Item / Package": null
       }
     },
     "structures": {
-      "Official 1x": {
-        "Item / Package": null
-      },
       "Small Tribes": {
-        "Item / Package": null
-      },
-      "PvE": {
         "Item / Package": null
       }
     },
     "kits": {
-      "Official 1x": {
-        "Item / Package": null
-      },
       "Small Tribes": {
-        "Item / Package": null
-      },
-      "PvE": {
         "Item / Package": null
       }
     },
     "tek-items": {
-      "Official 1x": {
-        "Item / Package": null
-      },
       "Small Tribes": {
-        "Item / Package": null
-      },
-      "PvE": {
         "Item / Package": null
       }
     },
     "island-note-run": {
-      "Official 1x": {
-        "Note Run": null
-      },
       "Small Tribes": {
-        "Note Run": null
-      },
-      "PvE": {
         "Note Run": null
       }
     },
     "scorched-note-run": {
-      "Official 1x": {
-        "Note Run": null
-      },
       "Small Tribes": {
-        "Note Run": null
-      },
-      "PvE": {
         "Note Run": null
       }
     },
     "aberration-note-run": {
-      "Official 1x": {
-        "Note Run": null
-      },
       "Small Tribes": {
-        "Note Run": null
-      },
-      "PvE": {
         "Note Run": null
       }
     },
     "extinction-note-run": {
-      "Official 1x": {
-        "Note Run": null
-      },
       "Small Tribes": {
-        "Note Run": null
-      },
-      "PvE": {
         "Note Run": null
       }
     },
     "middleman-service": {
-      "Official 1x": {
-        "Service Fee": null
-      },
       "Small Tribes": {
-        "Service Fee": null
-      },
-      "PvE": {
         "Service Fee": null
       }
     },
     "report-a-scammer": {
-      "Official 1x": {},
-      "Small Tribes": {},
-      "PvE": {}
+      "Small Tribes": {}
     },
     "become-a-seller": {
-      "Official 1x": {},
-      "Small Tribes": {},
-      "PvE": {}
+      "Small Tribes": {}
     },
     "staff-inquiries": {
-      "Official 1x": {},
-      "Small Tribes": {},
-      "PvE": {}
+      "Small Tribes": {}
     },
     "general-orders": {
-      "Official 1x": {
-        "Quote": null
-      },
       "Small Tribes": {
-        "Quote": null
-      },
-      "PvE": {
         "Quote": null
       }
     },
     "dedi-items": {
-      "Official 1x": {
-        "Quote": null
-      },
       "Small Tribes": {
-        "Quote": null
-      },
-      "PvE": {
         "Quote": null
       }
     },
     "dino-lines": {
-      "Official 1x": {
-        "Quote": null
-      },
       "Small Tribes": {
-        "Quote": null
-      },
-      "PvE": {
         "Quote": null
       }
     },
     "blueprints": {
-      "Official 1x": {
-        "Quote": null
-      },
       "Small Tribes": {
-        "Quote": null
-      },
-      "PvE": {
         "Quote": null
       }
     },
     "sell-base": {
-      "Official 1x": {
-        "Quote": null
-      },
       "Small Tribes": {
-        "Quote": null
-      },
-      "PvE": {
         "Quote": null
       }
     }

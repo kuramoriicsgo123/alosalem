@@ -12,6 +12,8 @@ from typing import Any
 
 import discord
 
+from . import SERVER_TYPE
+
 log = logging.getLogger(__name__)
 NO_MENTIONS = discord.AllowedMentions.none()
 
@@ -89,13 +91,13 @@ class TicketSelect(discord.ui.Select):
 
 class OrderModal(discord.ui.Modal):
     def __init__(self, service: "TicketService", product_id: str):
-        super().__init__(title="Order / service details", timeout=300,
+        super().__init__(title="Small Tribes order / service", timeout=300,
                          custom_id=f"shop:order:{product_id}")
         self.service, self.product_id = service, product_id
         self.quantity = discord.ui.TextInput(label="Quantity / package / difficulty", max_length=100,
                                             placeholder="Example: 5 Dedis, Alpha, 1 breeding pair", required=False)
-        self.server = discord.ui.TextInput(label="ARK map and server type", max_length=200,
-                                          placeholder="Official 1x / Small Tribes / PvE + map", required=False)
+        self.server = discord.ui.TextInput(label="Small Tribes map / server number", max_length=180,
+                                          placeholder="Example: The Island, server 123", required=False)
         self.details = discord.ui.TextInput(label="Order details / questions", style=discord.TextStyle.paragraph,
                                            max_length=1500, required=False,
                                            placeholder="Describe your request. Never send passwords or payment card details.")
@@ -106,7 +108,7 @@ class OrderModal(discord.ui.Modal):
     async def on_submit(self, interaction: discord.Interaction) -> None:
         await self.service.create_ticket(interaction, self.product_id,
                                          str(self.quantity.value).strip() or "To be confirmed",
-                                         str(self.server.value).strip() or "To be confirmed",
+                                         str(self.server.value).strip() or "Map / server number to be confirmed",
                                          str(self.details.value).strip() or "No additional details provided.")
 
     async def on_error(self, interaction: discord.Interaction, error: Exception) -> None:
@@ -346,7 +348,8 @@ class TicketService:
                 return
             try:
                 ticket = self.store.reserve_ticket(guild_id=guild.id, user_id=member.id, product_id=product_id,
-                    product_name=self.product_name(product_id), quantity=quantity[:100], server=server[:200], details=details[:1500])
+                    product_name=self.product_name(product_id), quantity=quantity[:100],
+                    server=f"{SERVER_TYPE} | {server.strip()}"[:200], details=details[:1500])
             except sqlite3.IntegrityError:
                 await reply(interaction, "This request already has a ticket being created. Please try again in a moment.")
                 return
@@ -381,7 +384,7 @@ class TicketService:
         embed.add_field(name="Customer", value=f"<@{ticket['user_id']}>", inline=False)
         embed.add_field(name="Product / service", value=discord.utils.escape_markdown(ticket["product_name"])[:1024], inline=False)
         embed.add_field(name="Quantity / package / difficulty", value=discord.utils.escape_markdown(ticket["quantity"])[:1024], inline=False)
-        embed.add_field(name="ARK map and server type", value=discord.utils.escape_markdown(ticket["server"])[:1024], inline=False)
+        embed.add_field(name="Map / server details", value=discord.utils.escape_markdown(ticket["server"])[:1024], inline=False)
         details = ticket["details"]
         for offset in range(0, len(details), 1000):
             embed.add_field(name="Details" if offset == 0 else "Details (continued)",

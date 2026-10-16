@@ -1,32 +1,29 @@
-# Prix publics et choix de la boutique
+# Tarifs Derek's Shop — ASA Small Tribes
 
-Relevé effectué le **13 octobre 2026**. Les montants ci-dessous sont des offres affichées par des vendeurs tiers, en dollars américains, consultées sur la page publique [PlayerAuctions — ARK Items](https://www.playerauctions.com/ark-items/). Ils ne constituent ni des tarifs de Derek's Shop, ni des prix adoptés pour votre boutique, ni une garantie de disponibilité ou de prix final avec frais.
+Vérification effectuée le **16 octobre 2026**. La boutique demandée est désormais réservée à **ASA Small Tribes (PvP)**. L'utilisateur souhaite reprendre les tarifs exacts de Derek's Shop ; aucun montant estimé n'est ajouté.
 
-## Offres publiques effectivement consultées
+## Boutique identifiée
 
-| Offre affichée | Conditions de l'annonce | Prix affiché pour le lot sélectionné | Source |
-| --- | --- | --- | --- |
-| Overseer / Tek Cave | ASA Official PvE ; annonce mentionnant +15 niveaux ; difficulté exacte à confirmer | **12,50 USD** | [Offre 297825375](https://www.playerauctions.com/ark-items/297825375i!asa-pve-island-overseer-boss-fight-tek-cave-unlock/) |
-| 10 Dedis de métal + 10 Dedis de pâte de ciment | ASA Official PvE ; 20 unités sélectionnées ; livraison annoncée à la base | **25,00 USD** pour le lot ; 1,25 USD/unité affiché | [Offre 297833104](https://www.playerauctions.com/ark-items/297833104i!asa-pve-ark-official-mix-resources-10x-dedi-metal-/?quantity=20) |
-| 4 Tek Rex | Official PvE selon le titre ; lot de quatre, imprégnés, avec selles | **5,00 USD** pour quatre ; 1,25 USD/unité affiché | [Offre 297804309](https://www.playerauctions.com/ark-items/297804309i!official-pve-boss-tek-rex-x4-100-imprinting-stats-/) |
-| Blueprint de selle Cerberax Ascendant | ASA PvE ; 124 armure / 712 durabilité annoncées par le vendeur | **9,90 USD** | [Offre 297919146](https://www.playerauctions.com/ark-items/297919146i!asa-pve-blueprint--ascendant-cerberax-saddle-124-a/) |
+Le lien fourni par l'utilisateur, [discord.gg/derekshop](https://discord.gg/derekshop), correspond à **Derek's Shop [ARK]**. La [page publique de l'invitation](https://discord.com/invite/derekshop) et les [métadonnées publiques de Discord](https://discord.com/api/v10/invites/derekshop?with_counts=true&with_expiration=true) ont répondu avec ce nom. La description publique mentionne SmallTribes, 1x, PvE et Console Only : il faut sélectionner les tarifs SmallTribes pour comparer des offres équivalentes.
 
-Les détails et prix ont été relevés dans les cartes d'offres de la page de catalogue, avec leurs liens individuels. Le titre d'une annonce reste une déclaration du vendeur : ses statistiques, récompenses et promesses commerciales ne valident pas une mécanique de jeu. En particulier, quatre dinosaures imprégnés ne sont pas une preuve de lignée reproductrice ni une paire reproductrice comparable à votre offre.
+L'invitation conduit au salon de sélection des rôles. Ces pages publiques ne donnent aucun montant, catalogue tarifaire ou lien marchand externe exploitable. Aucun accès authentifié aux messages des salons, aucune adhésion au serveur et aucune prise de contact n'ont été effectués.
 
-Ces exemples montrent l'importance des quantités, du mode PvE/PvP, des statistiques et des conditions de livraison. Ils ne permettent pas de déduire un prix Official 1x PvP ou Small Tribes. Les montants restent dans leur monnaie d'origine ; aucune conversion approximative en euros n'est publiée.
+Les recherches publiques du nom exact via [Google](https://www.google.com/search?q=%22Derek%27s+Shop%22+ARK) et [Bing](https://www.bing.com/search?q=%22Derek%27s+Shop%22+ARK) n'ont pas fourni de grille attribuable à la boutique. Cela ne démontre pas l'absence de tarifs publics ; ils n'ont pas pu être obtenus avec ces accès.
 
-## Derek's Shop
+## État des prix livrés
 
-Aucune grille tarifaire publique attribuable avec certitude à **Derek's Shop [ARK]** n'a pu être vérifiée. La recherche du nom exact sur Google a renvoyé une page nécessitant JavaScript ; les recherches Bing consultées ont donné des résultats non pertinents. Aucun lien public précis de la boutique ni capture exploitable n'est présent dans ce dossier. Il serait trompeur d'attribuer les prix d'autres vendeurs à Derek.
+- **Prix de Derek vérifiés et importés : aucun pour le moment.**
+- **Estimations importées : aucune.**
+- **Prix en attente :** les montants de `prices.json` restent à `null`, ce qui affiche **🪙 Contact Staff**. Chaque produit ne contient que le groupe `Small Tribes`.
 
-Autres tentatives : l'ancienne route PlayerAuctions `/ark-survival-ascended-items/` renvoyait HTTP 410 ; la route publique `/ark-items/` était accessible. Une route Eldorado testée renvoyait HTTP 404 ; elle ne fournit aucune preuve de tarif. Les recherches DuckDuckGo étaient refusées. Les premiers blocages réseau ont été réévalués avant de réaliser les relevés accessibles ci-dessus.
+Les anciennes offres de comparaison PlayerAuctions concernaient le PvE. Elles ne sont pas utilisées pour cette boutique Small Tribes et ne sont pas des tarifs de Derek.
 
-## Estimations et prix à choisir
+## Informations nécessaires pour reprendre les tarifs
 
-- **Prix publics vérifiés :** uniquement les offres précisément décrites ci-dessus, à la date du relevé.
-- **Estimations :** aucune estimation n'a été présentée comme un prix officiel ou intégrée aux panneaux.
-- **Vos prix à choisir :** toutes les valeurs commerciales de `prices.json` restent à `null`, donc **🪙 Contact Staff**. Cela inclut les boss, ressources, lignées, bases, publicités de bases, blueprints et note runs.
+Il faut le texte ou des captures lisibles des panneaux **SmallTribes** de Derek : produit, difficulté ou statistiques si applicables, quantité ou lot, montant et devise, ainsi que les restrictions de plateforme ou de livraison. Une capture d'une simple invitation ne contient pas ces informations.
 
-Pour fixer vos prix, comparez le même produit, la même quantité, le même serveur et les mêmes prestations, puis renseignez vos montants dans `prices.json`. Un prix compétitif doit aussi couvrir votre coût réel et votre temps de livraison. Les prix d'une base ou d'une lignée nécessitent ses caractéristiques précises. Aucune offre de publicité de base ou de note run suffisamment comparable n'a été vérifiée dans cette recherche.
+Chaque montant confirmé sera associé à sa variante exacte dans `prices.json`. Une offre de base ou de lignée ne permet pas d'attribuer le même prix à une base ou une lignée différente sans caractéristiques comparables. Les devises ne sont pas converties implicitement et un prix de lot n'est pas présenté comme prix unitaire.
 
-Un prix configuré est **fixe et non négociable**. « Contact Staff » signifie qu'aucun montant n'est publié : le staff confirme une proposition ferme avant tout paiement, sans annoncer un faux tarif officiel.
+La devise configurée par défaut est `EUR` ; aucun montant chiffré n'étant confirmé, cela ne prétend pas que Derek affiche ses prix en euros. La devise sera alignée sur les tarifs fournis, ou une conversion devra être explicitement convenue si plusieurs devises apparaissent.
+
+Tous les tarifs finalement publiés seront **fixes et non négociables** : **All prices are fixed and non-negotiable.**

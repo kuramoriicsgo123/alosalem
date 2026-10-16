@@ -7,12 +7,15 @@ from typing import Any
 
 import discord
 
+from . import SERVER_TYPE
+
 
 FIXED_PRICE_RULE = "All prices are fixed and non-negotiable."
-SERVER_TYPES = ("Official 1x", "Small Tribes", "PvE")
+SERVER_TYPES = (SERVER_TYPE,)
 ORDER_INSTRUCTIONS = (
     "Click the green button below to open a private ticket for this product. "
-    "Provide your quantity, server type, map and order details.\n\n"
+    "This shop serves ASA Small Tribes only. "
+    "Provide your quantity, map, Small Tribes server number and order details.\n\n"
     f"**{FIXED_PRICE_RULE}**\n"
     "Where a price says Contact Staff, staff will confirm a fixed price before you commit."
 )
@@ -71,8 +74,7 @@ def build_product_embed(settings: Any, product_id: str) -> discord.Embed:
     essential_fields: list[tuple[str, str]] = []
     commercial = product.get("commercial", True)
     prices = settings.prices.get("products", {}).get(product_id, {}) if commercial else {}
-    ordered_groups = list(SERVER_TYPES) + [key for key in prices if key not in SERVER_TYPES]
-    for server_type in ordered_groups:
+    for server_type in SERVER_TYPES:
         variants = prices.get(server_type)
         if not isinstance(variants, dict) or not variants:
             continue

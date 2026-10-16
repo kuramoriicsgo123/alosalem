@@ -7,15 +7,15 @@
         "key": "welcome",
         "name": "👋・welcome",
         "mode": "readonly",
-        "title": "👋 WELCOME TO OUR ASA SHOP",
-        "description": "Welcome! Explore the catalogue, read the rules and open a private ticket when you are ready to order. Our staff will confirm stock, server compatibility and your fixed quote before payment. Never share your Discord or game account password."
+        "title": "👋 WELCOME TO OUR ASA SMALL TRIBES SHOP",
+        "description": "Welcome to our ASA Small Tribes PvP shop! Explore the catalogue, read the rules and open a private ticket when you are ready to order. Our staff will confirm stock, your Small Tribes server and your fixed quote before payment. Never share your Discord or game account password."
       },
       {
         "key": "rules",
         "name": "📜・rules",
         "mode": "readonly",
         "title": "📜 SHOP RULES",
-        "description": "Be respectful. No spam, harassment, scams or unsolicited advertising. Follow Discord rules and applicable game and server rules. Keep trade details in your private ticket and never share passwords.\n\nAll prices are fixed and non-negotiable. “Contact Staff” means a price has not been published; staff must confirm a fixed quote before payment. Product availability, exact quantities and delivery terms must be agreed before purchase. No fabricated reviews, sales totals or reward guarantees are allowed.\n\nTicket messages may be preserved as restricted staff transcripts for order handling and dispute review. Ask staff about retention and deletion requests."
+        "description": "This shop serves ARK: Survival Ascended Small Tribes PvP only.\n\nBe respectful. No spam, harassment, scams or unsolicited advertising. Follow Discord rules and applicable game and server rules. Keep trade details in your private ticket and never share passwords.\n\nAll prices are fixed and non-negotiable. “Contact Staff” means a price has not been published; staff must confirm a fixed quote before payment. Product availability, exact quantities and delivery terms must be agreed before purchase. No fabricated reviews, sales totals or reward guarantees are allowed.\n\nTicket messages may be preserved as restricted staff transcripts for order handling and dispute review. Ask staff about retention and deletion requests."
       },
       {
         "key": "announcements",
@@ -29,7 +29,7 @@
         "name": "📖・how-to-order",
         "mode": "readonly",
         "title": "📖 HOW TO ORDER",
-        "description": "1. Find the product or service you need.\n2. Click its green order button, or choose an option in the central ticket menu.\n3. Include the quantity, map, server type and delivery details.\n4. Wait for staff to confirm stock, the fixed price and the exact offer.\n5. Use only the payment method confirmed by staff in your ticket.\n6. Complete delivery and contact staff if you need help.\n\nAll prices are fixed and non-negotiable."
+        "description": "1. Find the ASA Small Tribes product or service you need.\n2. Click its green order button, or choose an option in the central ticket menu.\n3. Include the quantity, map, Small Tribes server number and delivery details.\n4. Wait for staff to confirm stock, the fixed price and the exact offer.\n5. Use only the payment method confirmed by staff in your ticket.\n6. Complete delivery and contact staff if you need help.\n\nAll prices are fixed and non-negotiable."
       },
       {
         "key": "payment-information",
@@ -62,22 +62,22 @@
         "key": "shop-catalog",
         "name": "🛍️・shop-catalog",
         "mode": "readonly",
-        "title": "🛍️ SHOP CATALOGUE",
-        "description": "Explore Boss Fights, Dedi Resources, Dino Lines, Base Sales, Blueprints & Items and Note Runs. Each product panel has a real green button that opens its own private order ticket. Services whose ASA mechanics are unverified are clearly marked and require staff verification before sale.\n\nAll prices are fixed and non-negotiable."
+        "title": "🛍️ SMALL TRIBES SHOP CATALOGUE",
+        "description": "For ARK: Survival Ascended Small Tribes PvP only.\n\nExplore Boss Fights, Dedi Resources, Dino Lines, Base Sales, Blueprints & Items and Note Runs. Each product panel has a real green button that opens its own private order ticket. Services whose ASA mechanics are unverified are clearly marked and require staff verification before sale.\n\nAll prices are fixed and non-negotiable."
       },
       {
         "key": "prices",
         "name": "💸・prices",
         "mode": "readonly",
-        "title": "💸 PRICES",
-        "description": "See each product panel for prices by server type and package. 🪙 indicates the configured currency amount. “Contact Staff” means no amount has been confirmed or published. A staff quote must be agreed before payment.\n\nAll prices are fixed and non-negotiable."
+        "title": "💸 SMALL TRIBES PRICES",
+        "description": "See each product panel for ASA Small Tribes prices by package. 🪙 indicates the configured currency amount. “Contact Staff” means no amount has been confirmed or published. A staff quote must be agreed before payment.\n\nAll prices are fixed and non-negotiable."
       },
       {
         "key": "available-stock",
         "name": "📦・available-stock",
         "mode": "readonly",
         "title": "📦 AVAILABLE STOCK",
-        "description": "Availability is displayed on product panels and confirmed in your ticket. Dino statistics, base inventories and unverified services must be completed or checked before staff accepts payment."
+        "description": "All listed stock is for ASA Small Tribes PvP. Availability is displayed on product panels and confirmed in your ticket. Dino statistics, base inventories and unverified services must be completed or checked before staff accepts payment."
       },
       {
         "key": "customer-reviews",
@@ -134,7 +134,7 @@
         "name": "🎫・open-a-ticket",
         "mode": "readonly",
         "title": "🎟️ TICKETS",
-        "description": "To order something, please select the best option below.\n\nOur staff will assist you as soon as possible!"
+        "description": "To order something, please select the best option below.\n\nOur staff will assist you as soon as possible!\n\nAll orders and trade services are for ASA Small Tribes PvP."
       }
     ]
   },

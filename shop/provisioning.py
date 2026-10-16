@@ -373,6 +373,61 @@ async def _panel(bot: Any, channel: discord.TextChannel, key: str, kind: str,
     bot.store.set_resource("panel", key, message.id)
 
 
+async def _retire_pve_bases(bot: Any, guild: discord.Guild,
+                            roles: dict[str, discord.Role], summary: dict[str, int]) -> None:
+    """Retain a previously managed PvE listing privately after the shop migration.
+
+    This deliberately handles only the known legacy product. A saved ID alone
+    is insufficient authority to archive a channel: its exact setup marker and
+    guild must also match. History and resource IDs remain available for recovery.
+    """
+    key = "pve-bases"
+    if key in bot.settings.products:
+        return
+    saved = bot.store.get_resource("channel", key)
+    channel = guild.get_channel(saved) if saved else None
+    if channel is None:
+        return
+    marker = panel_marker("channel", key)
+    topic_markers = [line for line in (getattr(channel, "topic", None) or "").splitlines()
+                     if line.startswith("ASA-SHOP|channel|")]
+    if (not isinstance(channel, discord.TextChannel)
+            or channel.guild.id != guild.id or topic_markers != [marker]):
+        raise ProvisioningError(
+            "L'ancien salon pve-bases ne correspond pas à son identifiant et marqueur de boutique. "
+            "Il a été laissé intact ; vérifiez ce salon avant de relancer."
+        )
+    staff_id = bot.store.get_resource("category", "staff-only")
+    category = guild.get_channel(staff_id) if staff_id else None
+    if not isinstance(category, discord.CategoryChannel):
+        raise ProvisioningError(
+            "La catégorie privée du staff est introuvable. Le salon pve-bases a été laissé intact."
+        )
+    overwrites = _overwrites(bot, guild, roles, "staff")
+    name = "retired-pve-bases"
+    if (channel.name != name or channel.category_id != category.id
+            or channel.overwrites != overwrites):
+        try:
+            channel = await channel.edit(
+                name=name, category=category, overwrites=overwrites,
+                reason="ASA Small Tribes shop: retain legacy PvE listing privately",
+            )
+        except discord.Forbidden as exc:
+            raise _channel_forbidden(guild, category, channel, overwrites, exc,
+                                     channel_name=channel.name) from exc
+    shop_name = str(bot.settings.config.get("shop_name", "ASA Shop"))
+    embed = discord.Embed(
+        title="RETIRED — PVE BASE SALES",
+        description="This listing has been retired. This shop now serves ASA Small Tribes only. "
+                    "Previous messages are retained for staff reference. "
+                    "No orders can be placed from this panel.",
+        color=int(str(bot.settings.config.get("accent_color", "B3202A")).lstrip("#"), 16),
+    )
+    embed.set_author(name=shop_name[:256])
+    embed.set_footer(text=f"{shop_name[:128]} • {panel_marker('product', key)}")
+    await _panel(bot, channel, key, "product", embed, None, summary)
+
+
 async def sync_guild(bot: Any, guild: discord.Guild) -> dict[str, int]:
     """Create/update the configured shop. Caller serializes sync operations."""
     _preflight(guild)
@@ -407,6 +462,8 @@ async def sync_guild(bot: Any, guild: discord.Guild) -> dict[str, int]:
                 await _panel(bot, channel, product_id, "product", build_product_embed(bot.settings, product_id),
                              bot.tickets.product_view(product_id), summary)
                 position += 1
+        stage = "archivage privé de l'ancien salon pve-bases"
+        await _retire_pve_bases(bot, guild, roles, summary)
     except discord.Forbidden as exc:
         raise ProvisioningError(
             f"Discord refuse l'étape : {stage} (HTTP {exc.status}, code {exc.code}). "

@@ -22,6 +22,8 @@ Préparez le propriétaire du serveur, un membre staff et deux comptes de test o
 
 - [ ] Dans chaque salon de vente ou service, vérifier l'embed en anglais et le bouton réellement vert et cliquable.
 - [ ] Contrôler les ressources Dedi, Dino Lines, bases, blueprints, kits, Tek Items, boss et note runs.
+- [ ] Vérifier que chaque offre et groupe de prix concerne uniquement **ASA Small Tribes (PvP)** et que les formulaires demandent la carte et le numéro de serveur.
+- [ ] Lors d'une mise à jour, vérifier qu'un ancien salon `pve-bases` reconnu par le bot devient une archive privée staff, sans bouton d'achat ; son historique reste conservé.
 - [ ] Contrôler les cinq menus du salon central et leur correspondance avec les options attendues.
 - [ ] Vérifier l'emoji 🪙 et la règle **All prices are fixed and non-negotiable.**
 - [ ] Vérifier que tout tarif non choisi affiche **Contact Staff**, sans statistique ou stock inventé.

@@ -218,6 +218,20 @@ class TicketTests(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(all(len(menu.options) <= 25 for menu in central.children))
         self.assertEqual([menu.row for menu in central.children], list(range(len(MENU_GROUPS))))
 
+    async def test_new_orders_use_small_tribes_scope_and_map_details(self):
+        request = interaction(self.guild, self.customer)
+        await self.service.open(request, "rex-lines")
+        modal = request.response.send_modal.call_args.args[0]
+        self.assertIn("Small Tribes", modal.title)
+        self.assertEqual(modal.server.label, "Small Tribes map / server number")
+        self.assertNotIn("PvE", modal.server.placeholder)
+        self.assertNotIn("Official 1x", modal.server.placeholder)
+
+        await self.service.create_ticket(request, "rex-lines", "1 pair", "The Island, 123", "Blue colors")
+        ticket = self.store.active_ticket(1, self.customer.id, "rex-lines")
+        self.assertEqual(ticket["server"], "Small Tribes | The Island, 123")
+        self.assertIn("Small Tribes", self.channels[0].messages[0].embeds[0].fields[3].value)
+
     async def test_report_private_and_seller_not_staff(self):
         self.config["sensitive_ticket_role_keys"] = ["owner", "admin", "moderator", "seller", "vip"]
         overwrites = self.service._overwrites(self.guild, self.customer, "report-a-scammer")
@@ -308,6 +322,7 @@ class TicketTests(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(channel.overwrites[self.customer].view_channel)
         self.assertTrue(channel.overwrites[self.customer].send_messages)
         self.assertEqual(len(channel.messages), 1)
+        self.assertEqual(self.store.get_ticket(ticket["id"])["server"], "PvE")  # Preserve historical orders.
         recovered = TicketService(self.bot)
         await recovered.restore_views()
         self.assertEqual(len(channel.messages), 1)

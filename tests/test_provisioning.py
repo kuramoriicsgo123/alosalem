@@ -503,7 +503,7 @@ class ProvisioningTests(unittest.IsolatedAsyncioTestCase):
         await sync_guild(self.bot, self.guild)
         product_id = "element-dust"
         old = self.store.get_resource("panel", product_id)
-        server_prices = self.settings.prices["products"][product_id]["Official 1x"]
+        server_prices = self.settings.prices["products"][product_id]["Small Tribes"]
         server_prices[next(iter(server_prices))] = 12.50
         report = await sync_guild(self.bot, self.guild)
         self.assertEqual(report["panels_created"], 0)
@@ -542,14 +542,14 @@ class PresentationTests(unittest.TestCase):
         product["availability"] = "Available after staff confirmation."
         settings.prices["products"]["element-dust"] = {
             server: {f"Package {i} " + "x" * 50: i + 0.50 for i in range(10)}
-            for server in ("Official 1x", "Small Tribes", "PvE")}
+            for server in ("Small Tribes",)}
         embed = build_product_embed(settings, "element-dust")
         self.assertLessEqual(len(embed), 6000)
         self.assertLessEqual(len(embed.fields), 25)
         self.assertTrue(all(len(field.value) <= 1024 for field in embed.fields))
         price_text = "\n".join(f.value for f in embed.fields)
         for i in range(10):
-            self.assertEqual(price_text.count(f"Package {i} "), 3)
+            self.assertEqual(price_text.count(f"Package {i} "), 1)
         self.assertIn(FIXED_PRICE_RULE, price_text)
         self.assertIn(product["availability"], price_text)
         self.assertTrue(embed.footer.text.endswith(panel_marker("product", "element-dust")))

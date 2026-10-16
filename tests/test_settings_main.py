@@ -49,7 +49,7 @@ class ConfigurationTests(unittest.TestCase):
     def test_support_can_omit_prices_but_product_cannot(self):
         settings = load_settings(self.root)
         self.assertIs(settings.products["report-a-scammer"]["commercial"], False)
-        self.edit("prices.json", lambda d: d["products"]["rex-lines"].update({"PvE": {}}))
+        self.edit("prices.json", lambda d: d["products"]["rex-lines"].update({"Small Tribes": {}}))
         with self.assertRaises(ConfigurationError):
             load_settings(self.root)
 
@@ -82,7 +82,7 @@ class ConfigurationTests(unittest.TestCase):
 
     def test_rejects_nan_and_negative_prices(self):
         for invalid in (float("nan"), -1, True, "10 €"):
-            self.edit("prices.json", lambda d: d["products"]["rex-lines"]["PvE"].update({"Single Dinosaur": invalid}))
+            self.edit("prices.json", lambda d: d["products"]["rex-lines"]["Small Tribes"].update({"Single Dinosaur": invalid}))
             with self.subTest(invalid=invalid), self.assertRaises(ConfigurationError):
                 load_settings(self.root)
 
@@ -123,6 +123,19 @@ class ConfigurationTests(unittest.TestCase):
         for name in ("mention_everyone", "create_public_threads", "create_private_threads",
                      "send_messages_in_threads"):
             self.assertTrue(getattr(permissions, name))
+
+    def test_small_tribes_catalogue_rejects_other_price_groups(self):
+        settings = load_settings(self.root)
+        self.assertNotIn("pve-bases", settings.products)
+        for product_id, prices in settings.prices["products"].items():
+            self.assertEqual(set(prices), {"Small Tribes"})
+            panel = json.dumps(main.build_product_embed(settings, product_id).to_dict())
+            self.assertIn("Small Tribes", panel)
+            self.assertNotIn("Official 1x", panel)
+            self.assertNotIn("PvE", panel)
+        self.edit("prices.json", lambda d: d["products"]["rex-lines"].update({"PvE": {"Single Dinosaur": 1}}))
+        with self.assertRaisesRegex(ConfigurationError, "uniquement le groupe Small Tribes"):
+            load_settings(self.root)
 
     def test_process_lock_prevents_second_instance_and_releases(self):
         path = self.root / "bot.lock"

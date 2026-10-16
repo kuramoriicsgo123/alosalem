@@ -8,6 +8,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import urlparse
 
+from . import SERVER_TYPE
+
 
 class ConfigurationError(ValueError):
     """An actionable, safe-to-display configuration error."""
@@ -181,9 +183,10 @@ def _load_settings(root: Path, *, require_config: bool = False) -> Settings:
     _require(not set(entries) - set(products), "prices.json contient des identifiants produits inconnus.")
     for pid in products:
         servers = entries.get(pid)
-        _require(isinstance(servers, dict) and 1 <= len(servers) <= 3, f"Prix manquants ou trop de types de serveur : {pid}")
+        _require(isinstance(servers, dict) and set(servers) == {SERVER_TYPE},
+                 f"prices.json : {pid} doit contenir uniquement le groupe {SERVER_TYPE}. "
+                 "Mettez à jour prices.json pour la boutique Small Tribes.")
         for server, variants in servers.items():
-            _require(server in {"Official 1x", "Small Tribes", "PvE"}, f"Type de serveur inconnu : {server}")
             minimum = 0 if products[pid].get("commercial") is False else 1
             _require(isinstance(variants, dict) and minimum <= len(variants) <= 10, f"Variantes de prix invalides : {pid}")
             for label, value in variants.items():
